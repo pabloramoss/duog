@@ -1,7 +1,7 @@
 export const passatoProssimo = [
   {
     verb: 'abitare',
-    conjutation: {
+    conjugation: {
       io: 'ho abitato',
       tu: 'hai abitato',
       lui: 'ha abitato',

@@ -1,6 +1,13 @@
-'use client'
-import { Conjugation } from "@/types";
 import { useState } from "react";
+
+interface Conjugation {
+  io: string;
+  tu: string;
+  lui: string;
+  noi: string;
+  voi: string;
+  loro: string;
+}
 
 interface Props {
   tense: string;
@@ -9,8 +16,7 @@ interface Props {
 }
 
 const Card: React.FC<Props> = ({ tense, verb, conjugations }) => {
-  console.log("conjugations", conjugations)
-  const [conjugationsValue, setConjugationsValue] = useState({
+  const [conjugationsValue, setConjugationsValue] = useState<Conjugation>({
     io: '',
     tu: '',
     lui: '',
@@ -20,9 +26,7 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations }) => {
   });
   const [isCheck, setIsCheck] = useState(false);
 
-  const conjugationEntries = Object.entries(conjugationsValue);
-
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>, conjugation: string) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>, conjugation: keyof Conjugation) => {
     const { value } = event.target;
     setConjugationsValue(prevState => ({
       ...prevState,
@@ -30,6 +34,9 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations }) => {
     }));
   };
 
+  const handleCheck = (conjugation: any, conjugations: any) => {
+    console.log({conjugation, conjugations})
+    }
   return (
     <div className="grid gap-6 bg-stone-600 px-20 py-10 rounded-lg drop-shadow-md border-2 border-opacity-40 border-stone-500">
       <div className="grid gap-2">
@@ -37,20 +44,20 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations }) => {
         <h1 className="font-bold uppercase text-center text-xl">{verb}</h1>
       </div>
       <div className="grid gap-2">
-        {conjugationEntries.map(([conjugation, value]) => (
+        {Object.keys(conjugationsValue).map((conjugation) => (
           <div key={conjugation} className="flex gap-4 justify-between">
             <h3 className="underline">{conjugation}</h3>
             <div className="flex gap-2">
               <input
                 className="text-black px-2 rounded-md"
-                onChange={(e) => handleInputChange(e, conjugation)}
-                value={value}
+                onChange={(e) => handleInputChange(e, conjugation as keyof Conjugation)}
+                value={(conjugationsValue as any)[conjugation]}
                 type="text"
               />
               {
-                //@ts-ignore
-                isCheck ? (conjugationsValue[conjugation] === conjugations[conjugation] ? <span>✅</span> : <span>❌</span>) : <span>👀</span>
+                isCheck ? ((conjugationsValue as any)[conjugation] === conjugations[conjugation as keyof Conjugation] ? <span>✅</span> : <span>❌</span>) : <span>👀</span>
               }
+              <button onClick={() => handleCheck(conjugation, conjugations)}>asd</button>
             </div>
           </div>
         ))}

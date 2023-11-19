@@ -5,7 +5,7 @@ interface LessonData {
   imperfetto: {
     verbs: {
       verb: string,
-      conjugations: {
+      conjugation: {
         io: string,
         tu: string,
         lui: string,
@@ -18,7 +18,7 @@ interface LessonData {
   passatoProssimo: {
     verbs: {
       verb: string,
-      conjugations: {
+      conjugation: {
         io: string,
         tu: string,
         lui: string,

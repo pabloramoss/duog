@@ -19,13 +19,13 @@ export default function Home() {
       <div style={{width: "500px"}}>
         <Swiper style={{}} navigation={true} modules={[Navigation]} className="mySwiper">
           {
-            data[0].verbs.map((verb) => (
+            data.imperfetto.verbs.map((verb) => (
               <SwiperSlide key={verb.verb}>
                 <Card
                   // key={verb.verb}
-                  tense={data[0].tense}
+                  tense={"hola"}
                   verb={verb.verb}
-                  conjugations={verb.conjugation as Conjugation}
+                  conjugations={verb.conjugation}
                 />
               </SwiperSlide>
             ))
