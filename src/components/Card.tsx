@@ -34,11 +34,8 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations }) => {
     }));
   };
 
-  const handleCheck = (conjugation: any, conjugations: any) => {
-    console.log({conjugation, conjugations})
-    }
   return (
-    <div className="grid gap-6 bg-stone-600 px-20 py-10 rounded-lg drop-shadow-md border-2 border-opacity-40 border-stone-500">
+    <div className="grid gap-6 px-20 py-10 rounded-lg drop-shadow-md border-2 border-opacity-40 border-stone-500">
       <div className="grid gap-2">
         <h2 className="text-lg text-center">{tense}</h2>
         <h1 className="font-bold uppercase text-center text-xl">{verb}</h1>
@@ -57,12 +54,11 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations }) => {
               {
                 isCheck ? ((conjugationsValue as any)[conjugation] === conjugations[conjugation as keyof Conjugation] ? <span>✅</span> : <span>❌</span>) : <span>👀</span>
               }
-              <button onClick={() => handleCheck(conjugation, conjugations)}>asd</button>
             </div>
           </div>
         ))}
       </div>
-      <button className="bg-stone-500 rounded-md drop-shadow-sm" onClick={() => setIsCheck(true)}>Check</button>
+      <button className="border-[1px] border-stone-500 rounded-md drop-shadow-sm" onClick={() => setIsCheck(true)}>Check</button>
     </div>
   );
 }

@@ -11,6 +11,7 @@ export interface Lesson {
   name: string;
   description: string;
   done: boolean;
+  available: boolean;
 }
 
 export interface Chapter {

@@ -1,7 +1,6 @@
 'use client'
 import Card from '@/components/Card'
 import { data } from '@/data'
-import { Conjugation } from '@/types'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
