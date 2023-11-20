@@ -14,7 +14,7 @@ import { Navigation } from 'swiper/modules';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-stone-700">
-      <h1 className='text-4xl font-bold mb-20'>DUOPINGO 👃</h1>
+      <h1 className='text-4xl font-bold mb-20'>DUOGRINGO 👃</h1>
       <div style={{width: "500px"}}>
         <Swiper style={{}} navigation={true} modules={[Navigation]} className="mySwiper">
           {
