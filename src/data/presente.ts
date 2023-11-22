@@ -2,177 +2,177 @@ export const passatoProssimo = [
   {
     verb: 'abitare',
     conjugation: {
-      io: 'ho abitato',
-      tu: 'hai abitato',
-      lui: 'ha abitato',
-      noi: 'abbiamo abitato',
-      voi: 'avete abitato',
-      loro: 'hanno abitato'
+      io: 'abito',
+      tu: 'abiti',
+      lui: 'abita',
+      noi: 'abitiamo',
+      voi: 'abitate',
+      loro: 'abitano'
     }
   },
   {
     verb: 'aiutare',
     conjugation: {
-      io: 'ho aiutato',
-      tu: 'hai aiutato',
-      lui: 'ha aiutato',
-      noi: 'abbiamo aiutato',
-      voi: 'avete aiutato',
-      loro: 'hanno aiutato'
+      io: 'aiuto',
+      tu: 'aiuti',
+      lui: 'aiuta',
+      noi: 'aiutiamo',
+      voi: 'aiutate',
+      loro: 'aiutano'
     }
   },
   {
     verb: 'andare',
     conjugation: {
-      io: 'ho andato',
-      tu: 'hai andato',
-      lui: 'ha andato',
-      noi: 'abbiamo andato',
-      voi: 'avete andato',
-      loro: 'hanno andato'
+      io: 'vado',
+      tu: 'vai',
+      lui: 'va',
+      noi: 'andiamo',
+      voi: 'andate',
+      loro: 'vanno'
     }
   },
   {
     verb: 'aprire',
     conjugation: {
-      io: 'ho aperto',
-      tu: 'hai aperto',
-      lui: 'ha aperto',
-      noi: 'abbiamo aperto',
-      voi: 'avete aperto',
-      loro: 'hanno aperto'
+      io: 'apro',
+      tu: 'apri',
+      lui: 'apre',
+      noi: 'apriamo',
+      voi: 'aprite',
+      loro: 'aprono'
     }
   },
   {
     verb: 'arrivare',
     conjugation: {
-      io: 'sono arrivato',
-      tu: 'sei arrivati',
-      lui: 'é arrivato',
-      noi: 'siamo arrivati',
-      voi: 'siete arrivati',
-      loro: 'sono arrivati'
+      io: 'arrivo',
+      tu: 'arrivi',
+      lui: 'arriva',
+      noi: 'arriviamo',
+      voi: 'arrivate',
+      loro: 'arrivano'
     }
   },
   {
     verb: 'aspettare',
     conjugation: {
-      io: 'ho aspettato',
-      tu: 'hai aspettato',
-      lui: 'ha aspettato',
-      noi: 'abbiamo aspettato',
-      voi: 'avete aspettato',
-      loro: 'hanno aspettato'
+      io: 'aspetto',
+      tu: 'aspetti',
+      lui: 'aspetta',
+      noi: 'aspettiamo',
+      voi: 'aspettate',
+      loro: 'aspettano'
     }
   },
   {
     verb: 'avere',
     conjugation: {
-      io: 'ho avuto',
-      tu: 'hai avuto',
-      lui: 'ha avuto',
-      noi: 'abbiamo avuto',
-      voi: 'avete avuto',
-      loro: 'hanno avuto'
+      io: 'ho',
+      tu: 'hai',
+      lui: 'ha',
+      noi: 'abbiamo',
+      voi: 'avete',
+      loro: 'hanno'
     }
   },
   {
     verb: 'bere',
     conjugation: {
-      io: 'ho bevuto',
-      tu: 'hai bevuto',
-      lui: 'ha bevuto',
-      noi: 'abbiamo bevuto',
-      voi: 'avete bevuto',
-      loro: 'hanno bevuto'
+      io: 'bevo',
+      tu: 'bevi',
+      lui: 'beve',
+      noi: 'beviamo',
+      voi: 'bevete',
+      loro: 'bevono'
     }
   },
   {
     verb: 'cambiare',
     conjugation: {
-      io: 'ho cambiato',
-      tu: 'hai cambiato',
-      lui: 'ha cambiato',
-      noi: 'abbiamo cambiato',
-      voi: 'avete cambiato',
-      loro: 'hanno cambiato'
+      io: 'cambio',
+      tu: 'cambi',
+      lui: 'cambia',
+      noi: 'cambiamo',
+      voi: 'cambiate',
+      loro: 'cambiano'
     }
   },
   {
     verb: 'camminare',
     conjugation: {
-      io: 'ho camminato',
-      tu: 'hai camminato',
-      lui: 'ha camminato',
-      noi: 'abbiamo camminato',
-      voi: 'avete camminato',
-      loro: 'hanno camminato'
+      io: 'cammino',
+      tu: 'cammini',
+      lui: 'cammina',
+      noi: 'camminiamo',
+      voi: 'camminate',
+      loro: 'camminano'
     }
   },
   {
     verb: 'essere',
     conjugation: {
-      io: 'sono stato',
-      tu: 'sei stato',
-      lui: 'è stato',
-      noi: 'siamo stati',
-      voi: 'siete stati',
-      loro: 'sono stati'
+      io: 'sono',
+      tu: 'sei',
+      lui: 'è',
+      noi: 'siamo',
+      voi: 'siete',
+      loro: 'sono'
     }
   },
   {
     verb: 'capire',
     conjugation: {
-      io: 'ho capito',
-      tu: 'hai capito',
-      lui: 'ha capito',
-      noi: 'abbiamo capito',
-      voi: 'avete capito',
-      loro: 'hanno capito'
+      io: 'capisco',
+      tu: 'capisci',
+      lui: 'capisce',
+      noi: 'capiamo',
+      voi: 'capite',
+      loro: 'capiscono'
     }
   },
     {
     verb: 'cercare',
     conjugation: {
-      io: 'ho cercato',
-      tu: 'hai cercato',
-      lui: 'ha cercato',
-      noi: 'abbiamo cercato',
-      voi: 'avete cercato',
-      loro: 'hanno cercato'
+      io: 'cerco',
+      tu: 'cerchi',
+      lui: 'cerca',
+      noi: 'cerchiamo',
+      voi: 'cercate',
+      loro: 'cercano'
     }
   },
       {
     verb: 'chiamare',
     conjugation: {
-      io: 'ho chiamato',
-      tu: 'hai chiamato',
-      lui: 'ha chiamato',
-      noi: 'abbiamo chiamato',
-      voi: 'avete chiamato',
-      loro: 'hanno chiamato'
+      io: 'chiamo',
+      tu: 'chiami',
+      lui: 'chiama',
+      noi: 'chiamiamo',
+      voi: 'chiamate',
+      loro: 'chiamano'
     }
   },
     {
     verb: 'chiedere',
     conjugation: {
-      io: 'ho chiesto',
-      tu: 'hai chiesto',
-      lui: 'ha chiesto',
-      noi: 'abbiamo chiesto',
-      voi: 'avete chiesto',
-      loro: 'hanno chiesto'
+      io: 'chiedo',
+      tu: 'chiedi',
+      lui: 'chiede',
+      noi: 'chiediamo',
+      voi: 'chiedete',
+      loro: 'chiedono'
     }
   },
     {
     verb: 'chiudere',
     conjugation: {
-      io: 'ho chiuso',
-      tu: 'hai chiuso',
-      lui: 'ha chiuso',
-      noi: 'abbiamo chiuso',
-      voi: 'avete chiuso',
-      loro: 'hanno chiuso'
+      io: 'chiudo',
+      tu: 'chiudi',
+      lui: 'chiude',
+      noi: 'chiudiamo',
+      voi: 'chiudete',
+      loro: 'chiudono'
     }
   },
     {
@@ -340,15 +340,4 @@ export const passatoProssimo = [
       loro: 'hanno ricevuto'
     }
   },
-  {
-    verb: 'risparmiare',
-    conjugation: {
-      io: 'ho risparmiato',
-      tu: 'hai risparmiato',
-      lui: 'ha risparmiato',
-      noi: 'abbiamo risparmiato',
-      voi: 'avete risparmiato',
-      loro: 'hanno risparmiato'
-    }
-  }
 ]
