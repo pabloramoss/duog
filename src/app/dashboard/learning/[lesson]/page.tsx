@@ -16,7 +16,7 @@ const Page = ({params: {lesson}}: {params: {lesson: string}}) => {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className='text-4xl font-bold mb-20'>DUOGRINGO 👃</h1>
+      <h1 className='text-4xl font-bold mb-20'>DUOGRINGO</h1>
       <div style={{width: "500px"}}>
         <Swiper style={{}} navigation={true} modules={[Navigation]} className="mySwiper">
           {

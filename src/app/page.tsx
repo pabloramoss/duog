@@ -10,27 +10,14 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Navigation } from 'swiper/modules';
+import { redirect } from 'next/navigation';
+
 
 export default function Home() {
+  redirect('/dashboard')
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-stone-700">
-      <h1 className='text-4xl font-bold mb-20'>DUOGRINGO 👃</h1>
-      <div style={{width: "500px"}}>
-        <Swiper style={{}} navigation={true} modules={[Navigation]} className="mySwiper">
-          {
-            data.imperfetto.verbs.map((verb) => (
-              <SwiperSlide key={verb.verb}>
-                <Card
-                  // key={verb.verb}
-                  tense={"hola"}
-                  verb={verb.verb}
-                  conjugations={verb.conjugation}
-                />
-              </SwiperSlide>
-            ))
-          }
-        </Swiper>
-      </div>
+      <p>hello</p>
     </main>
   )
 }

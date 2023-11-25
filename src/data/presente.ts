@@ -1,4 +1,4 @@
-export const passatoProssimo = [
+export const presente = [
   {
     verb: 'abitare',
     conjugation: {
@@ -189,155 +189,155 @@ export const passatoProssimo = [
   {
     verb: 'comprare',
     conjugation: {
-      io: 'ho comprato',
-      tu: 'hai comprato',
-      lui: 'ha comprato',
-      noi: 'abbiamo comprato',
-      voi: 'avete comprato',
-      loro: 'hanno comprato'
+      io: 'compro',
+      tu: 'compri',
+      lui: 'compra',
+      noi: 'compriamo',
+      voi: 'comprate',
+      loro: 'comprano'
     }
   },
     {
     verb: 'conoscere',
     conjugation: {
-      io: 'ho conosciuto',
-      tu: 'hai conosciuto',
-      lui: 'ha conosciuto',
-      noi: 'abbiamo conosciuto',
-      voi: 'avete conosciuto',
-      loro: 'hanno conosciuto'
+      io: 'conosco',
+      tu: 'conosci',
+      lui: 'conosce',
+      noi: 'conosciamo',
+      voi: 'conoscete',
+      loro: 'conoscono'
     }
   },
       {
     verb: 'credere',
     conjugation: {
-      io: 'ho creduto',
-      tu: 'hai creduto',
-      lui: 'ha creduto',
-      noi: 'abbiamo creduto',
-      voi: 'avete creduto',
-      loro: 'hanno creduto'
+      io: 'credo',
+      tu: 'credi',
+      lui: 'crede',
+      noi: 'crediamo',
+      voi: 'credete',
+      loro: 'credono'
     }
   },
         {
     verb: 'decidere',
     conjugation: {
-      io: 'ho deciso',
-      tu: 'hai deciso',
-      lui: 'ha deciso',
-      noi: 'abbiamo deciso',
-      voi: 'avete deciso',
-      loro: 'hanno deciso'
+      io: 'decido',
+      tu: 'decidi',
+      lui: 'decide',
+      noi: 'decidiamo',
+      voi: 'decidete',
+      loro: 'decidono'
     }
   },
   {
     verb: 'perdere',
     conjugation: {
-      io: 'ho perso',
-      tu: 'hai perso',
-      lui: 'ha perso',
-      noi: 'abbiamo perso',
-      voi: 'avete perso',
-      loro: 'hanno perso'
+      io: 'perdo',
+      tu: 'perdi',
+      lui: 'perde',
+      noi: 'perdiamo',
+      voi: 'perdete',
+      loro: 'perdono'
     }
   },
     {
     verb: 'piacere',
     conjugation: {
-      io: 'ho piaciuto',
-      tu: 'hai piaciuto',
-      lui: 'ha piaciuto',
-      noi: 'abbiamo piaciuto',
-      voi: 'avete piaciuto',
-      loro: 'hanno piaciuto'
+      io: 'piaccio',
+      tu: 'piaci',
+      lui: 'piace',
+      noi: 'piacciamo',
+      voi: 'piacete',
+      loro: 'piacciono'
     }
   },
       {
     verb: 'porre',
     conjugation: {
-      io: 'ho posto',
-      tu: 'hai posto',
-      lui: 'ha posto',
-      noi: 'abbiamo posto',
-      voi: 'avete posto',
-      loro: 'hanno posto'
+      io: 'pongo',
+      tu: 'poni',
+      lui: 'pone',
+      noi: 'poniamo',
+      voi: 'ponete',
+      loro: 'pongono'
     }
   },
     {
     verb: 'portare',
     conjugation: {
-      io: 'ho portato',
-      tu: 'hai portato',
-      lui: 'ha portato',
-      noi: 'abbiamo portato',
-      voi: 'avete portato',
-      loro: 'hanno portato'
+      io: 'porto',
+      tu: 'porti',
+      lui: 'porta',
+      noi: 'portiamo',
+      voi: 'portate',
+      loro: 'portano'
     }
   },
     {
     verb: 'potere',
     conjugation: {
-      io: 'ho potuto',
-      tu: 'hai potuto',
-      lui: 'ha potuto',
-      noi: 'abbiamo potuto',
-      voi: 'avete potuto',
-      loro: 'hanno potuto'
+      io: 'posso',
+      tu: 'puoi',
+      lui: 'può',
+      noi: 'possiamo',
+      voi: 'potete',
+      loro: 'possono'
     }
   },
     {
     verb: 'preferire',
     conjugation: {
-      io: 'ho preferito',
-      tu: 'hai preferito',
-      lui: 'ha preferito',
-      noi: 'abbiamo preferito',
-      voi: 'avete preferito',
-      loro: 'hanno preferito'
+      io: 'preferisco',
+      tu: 'preferisci',
+      lui: 'preferisce',
+      noi: 'preferiamo',
+      voi: 'preferite',
+      loro: 'preferiscono'
     }
   },    
   {
     verb: 'prendere',
     conjugation: {
-      io: 'ho prendito',
-      tu: 'hai prendito',
-      lui: 'ha prendito',
-      noi: 'abbiamo prendito',
-      voi: 'avete prendito',
-      loro: 'hanno prendito'
+      io: 'prendo',
+      tu: 'prendi',
+      lui: 'prende',
+      noi: 'prendiamo',
+      voi: 'prendete',
+      loro: 'prendono'
     }
   },
     {
     verb: 'pulire',
     conjugation: {
-      io: 'ho pulito',
-      tu: 'hai pulito',
-      lui: 'ha pulito',
-      noi: 'abbiamo pulito',
-      voi: 'avete pulito',
-      loro: 'hanno pulito'
+      io: 'pulisco',
+      tu: 'pulisci',
+      lui: 'pulisce',
+      noi: 'puliamo',
+      voi: 'pulite',
+      loro: 'puliscono'
     }
   },
       {
     verb: 'restare',
     conjugation: {
-      io: 'ho rimasto',
-      tu: 'hai rimasto',
-      lui: 'ha rimasto',
-      noi: 'abbiamo rimasto',
-      voi: 'avete rimasto',
-      loro: 'hanno rimasto'
+      io: 'resto',
+      tu: 'resti',
+      lui: 'resta',
+      noi: 'restiamo',
+      voi: 'restate',
+      loro: 'restano'
     }
   },
         {
     verb: 'ricevere',
     conjugation: {
-      io: 'ho ricevuto',
-      tu: 'hai ricevuto',
-      lui: 'ha ricevuto',
-      noi: 'abbiamo ricevuto',
-      voi: 'avete ricevuto',
-      loro: 'hanno ricevuto'
+      io: 'ricevo',
+      tu: 'ricevi',
+      lui: 'riceve',
+      noi: 'riceviamo',
+      voi: 'ricevete',
+      loro: 'ricevono'
     }
   },
 ]

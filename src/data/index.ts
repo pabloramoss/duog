@@ -1,5 +1,6 @@
 import { imperfetto } from "./imperfetto";
 import { passatoProssimo } from "./passatoProssimo";
+import { presente } from './presente'
 
 interface LessonData {
   imperfetto: {
@@ -27,7 +28,7 @@ interface LessonData {
         loro: string
       }
     }[]
-  }
+  },
 }
 
 export const data: LessonData = {
