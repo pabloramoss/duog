@@ -1,16 +1,19 @@
-'use client'
-import { Lesson } from "@/types";
-import Title from "../Title"
-import Avatar from "./Avatar";
-import { useRouter } from 'next/navigation'
+'use client';
+import { useRouter } from 'next/navigation';
+
+import { Lesson } from '@/types';
+
+import Title from '../Title';
+
+import Avatar from './Avatar';
 
 interface Props {
   lesson: Lesson;
 }
 
-const DashboardLesson: React.FC<Props> = ({lesson}) => {
+const DashboardLesson: React.FC<Props> = ({ lesson }) => {
   const { name, description, done, available } = lesson;
-  const router = useRouter()
+  const router = useRouter();
 
   function transformLessonName(lessonName: string) {
     const words = lessonName.toLowerCase().split(' ');
@@ -18,24 +21,34 @@ const DashboardLesson: React.FC<Props> = ({lesson}) => {
       if (index === 0) {
         return result + word;
       }
+
       return result + word.charAt(0).toUpperCase() + word.slice(1);
     }, '');
+
     return camelCaseName;
   }
 
   const handleRedirect = () => {
-    router.push(`/dashboard/learning/${transformLessonName(name)}`)
-  }
+    router.push(`/dashboard/learning/${transformLessonName(name)}`);
+  };
 
   return (
-    <button disabled={!lesson.available} onClick={handleRedirect} className={`${lesson.available ? "cursor-pointer":"cursor-not-allowed"} flex gap-6 items-center p-6 rounded-xl ${lesson.available && "hover:bg-slate-200"} text-start`}>
-      <Avatar done={done} available={available} />
+    <button
+      className={`${
+        lesson.available ? 'cursor-pointer' : 'cursor-not-allowed'
+      } flex gap-6 items-center p-6 rounded-xl ${
+        lesson.available && 'hover:bg-slate-200'
+      } text-start`}
+      disabled={!lesson.available}
+      onClick={handleRedirect}
+    >
+      <Avatar available={available} done={done} />
       <div className="grid">
         <Title size="sm">{name}</Title>
         <p>{description}</p>
-      </div> 
+      </div>
     </button>
-  )
-}
+  );
+};
 
-export default DashboardLesson
+export default DashboardLesson;

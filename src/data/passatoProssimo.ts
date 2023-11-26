@@ -8,8 +8,8 @@ export const passatoProssimo = [
       lui: 'ha abitato',
       noi: 'abbiamo abitato',
       voi: 'avete abitato',
-      loro: 'hanno abitato'
-    }
+      loro: 'hanno abitato',
+    },
   },
   {
     verb: 'aiutare',
@@ -20,8 +20,8 @@ export const passatoProssimo = [
       lui: 'ha aiutato',
       noi: 'abbiamo aiutato',
       voi: 'avete aiutato',
-      loro: 'hanno aiutato'
-    }
+      loro: 'hanno aiutato',
+    },
   },
   {
     verb: 'andare',
@@ -32,8 +32,8 @@ export const passatoProssimo = [
       lui: 'ha andato',
       noi: 'abbiamo andato',
       voi: 'avete andato',
-      loro: 'hanno andato'
-    }
+      loro: 'hanno andato',
+    },
   },
   {
     verb: 'aprire',
@@ -44,8 +44,8 @@ export const passatoProssimo = [
       lui: 'ha aperto',
       noi: 'abbiamo aperto',
       voi: 'avete aperto',
-      loro: 'hanno aperto'
-    }
+      loro: 'hanno aperto',
+    },
   },
   {
     verb: 'arrivare',
@@ -56,8 +56,8 @@ export const passatoProssimo = [
       lui: 'é arrivato',
       noi: 'siamo arrivati',
       voi: 'siete arrivati',
-      loro: 'sono arrivati'
-    }
+      loro: 'sono arrivati',
+    },
   },
   {
     verb: 'aspettare',
@@ -68,8 +68,8 @@ export const passatoProssimo = [
       lui: 'ha aspettato',
       noi: 'abbiamo aspettato',
       voi: 'avete aspettato',
-      loro: 'hanno aspettato'
-    }
+      loro: 'hanno aspettato',
+    },
   },
   {
     verb: 'avere',
@@ -80,8 +80,8 @@ export const passatoProssimo = [
       lui: 'ha avuto',
       noi: 'abbiamo avuto',
       voi: 'avete avuto',
-      loro: 'hanno avuto'
-    }
+      loro: 'hanno avuto',
+    },
   },
   {
     verb: 'bere',
@@ -92,8 +92,8 @@ export const passatoProssimo = [
       lui: 'ha bevuto',
       noi: 'abbiamo bevuto',
       voi: 'avete bevuto',
-      loro: 'hanno bevuto'
-    }
+      loro: 'hanno bevuto',
+    },
   },
   {
     verb: 'cambiare',
@@ -104,8 +104,8 @@ export const passatoProssimo = [
       lui: 'ha cambiato',
       noi: 'abbiamo cambiato',
       voi: 'avete cambiato',
-      loro: 'hanno cambiato'
-    }
+      loro: 'hanno cambiato',
+    },
   },
   {
     verb: 'camminare',
@@ -116,8 +116,8 @@ export const passatoProssimo = [
       lui: 'ha camminato',
       noi: 'abbiamo camminato',
       voi: 'avete camminato',
-      loro: 'hanno camminato'
-    }
+      loro: 'hanno camminato',
+    },
   },
   {
     verb: 'essere',
@@ -128,8 +128,8 @@ export const passatoProssimo = [
       lui: 'è stato',
       noi: 'siamo stati',
       voi: 'siete stati',
-      loro: 'sono stati'
-    }
+      loro: 'sono stati',
+    },
   },
   {
     verb: 'capire',
@@ -140,10 +140,10 @@ export const passatoProssimo = [
       lui: 'ha capito',
       noi: 'abbiamo capito',
       voi: 'avete capito',
-      loro: 'hanno capito'
-    }
+      loro: 'hanno capito',
+    },
   },
-    {
+  {
     verb: 'cercare',
     translation: 'to look for',
     conjugation: {
@@ -152,10 +152,10 @@ export const passatoProssimo = [
       lui: 'ha cercato',
       noi: 'abbiamo cercato',
       voi: 'avete cercato',
-      loro: 'hanno cercato'
-    }
+      loro: 'hanno cercato',
+    },
   },
-      {
+  {
     verb: 'chiamare',
     translation: 'to call',
     conjugation: {
@@ -164,10 +164,10 @@ export const passatoProssimo = [
       lui: 'ha chiamato',
       noi: 'abbiamo chiamato',
       voi: 'avete chiamato',
-      loro: 'hanno chiamato'
-    }
+      loro: 'hanno chiamato',
+    },
   },
-    {
+  {
     verb: 'chiedere',
     translation: 'to ask',
     conjugation: {
@@ -176,10 +176,10 @@ export const passatoProssimo = [
       lui: 'ha chiesto',
       noi: 'abbiamo chiesto',
       voi: 'avete chiesto',
-      loro: 'hanno chiesto'
-    }
+      loro: 'hanno chiesto',
+    },
   },
-    {
+  {
     verb: 'chiudere',
     translation: 'to close',
     conjugation: {
@@ -188,10 +188,10 @@ export const passatoProssimo = [
       lui: 'ha chiuso',
       noi: 'abbiamo chiuso',
       voi: 'avete chiuso',
-      loro: 'hanno chiuso'
-    }
+      loro: 'hanno chiuso',
+    },
   },
-    {
+  {
     verb: 'cominciare',
     translation: 'to begin',
     conjugation: {
@@ -200,9 +200,9 @@ export const passatoProssimo = [
       lui: 'comincia',
       noi: 'cominciamo',
       voi: 'cominciate',
-      loro: 'cominciano'
-    }
-  },    
+      loro: 'cominciano',
+    },
+  },
   {
     verb: 'comprare',
     translation: 'to buy',
@@ -212,10 +212,10 @@ export const passatoProssimo = [
       lui: 'ha comprato',
       noi: 'abbiamo comprato',
       voi: 'avete comprato',
-      loro: 'hanno comprato'
-    }
+      loro: 'hanno comprato',
+    },
   },
-    {
+  {
     verb: 'conoscere',
     translation: 'to know',
     conjugation: {
@@ -224,10 +224,10 @@ export const passatoProssimo = [
       lui: 'ha conosciuto',
       noi: 'abbiamo conosciuto',
       voi: 'avete conosciuto',
-      loro: 'hanno conosciuto'
-    }
+      loro: 'hanno conosciuto',
+    },
   },
-    {
+  {
     verb: 'credere',
     translation: 'to believe',
     conjugation: {
@@ -236,10 +236,10 @@ export const passatoProssimo = [
       lui: 'ha creduto',
       noi: 'abbiamo creduto',
       voi: 'avete creduto',
-      loro: 'hanno creduto'
-    }
+      loro: 'hanno creduto',
+    },
   },
-    {
+  {
     verb: 'decidere',
     translation: 'to decide',
     conjugation: {
@@ -248,8 +248,8 @@ export const passatoProssimo = [
       lui: 'ha deciso',
       noi: 'abbiamo deciso',
       voi: 'avete deciso',
-      loro: 'hanno deciso'
-    }
+      loro: 'hanno deciso',
+    },
   },
   {
     verb: 'perdere',
@@ -260,10 +260,10 @@ export const passatoProssimo = [
       lui: 'ha perso',
       noi: 'abbiamo perso',
       voi: 'avete perso',
-      loro: 'hanno perso'
-    }
+      loro: 'hanno perso',
+    },
   },
-    {
+  {
     verb: 'piacere',
     translation: 'to like',
     conjugation: {
@@ -272,10 +272,10 @@ export const passatoProssimo = [
       lui: 'ha piaciuto',
       noi: 'abbiamo piaciuto',
       voi: 'avete piaciuto',
-      loro: 'hanno piaciuto'
-    }
+      loro: 'hanno piaciuto',
+    },
   },
-      {
+  {
     verb: 'porre',
     translation: 'to put',
     conjugation: {
@@ -284,10 +284,10 @@ export const passatoProssimo = [
       lui: 'ha posto',
       noi: 'abbiamo posto',
       voi: 'avete posto',
-      loro: 'hanno posto'
-    }
+      loro: 'hanno posto',
+    },
   },
-    {
+  {
     verb: 'portare',
     translation: 'to bring',
     conjugation: {
@@ -296,10 +296,10 @@ export const passatoProssimo = [
       lui: 'ha portato',
       noi: 'abbiamo portato',
       voi: 'avete portato',
-      loro: 'hanno portato'
-    }
+      loro: 'hanno portato',
+    },
   },
-    {
+  {
     verb: 'potere',
     translation: 'to be able to',
     conjugation: {
@@ -308,10 +308,10 @@ export const passatoProssimo = [
       lui: 'ha potuto',
       noi: 'abbiamo potuto',
       voi: 'avete potuto',
-      loro: 'hanno potuto'
-    }
+      loro: 'hanno potuto',
+    },
   },
-    {
+  {
     verb: 'preferire',
     translation: 'to prefer',
     conjugation: {
@@ -320,9 +320,9 @@ export const passatoProssimo = [
       lui: 'ha preferito',
       noi: 'abbiamo preferito',
       voi: 'avete preferito',
-      loro: 'hanno preferito'
-    }
-  },    
+      loro: 'hanno preferito',
+    },
+  },
   {
     verb: 'prendere',
     translation: 'to take',
@@ -332,10 +332,10 @@ export const passatoProssimo = [
       lui: 'ha prendito',
       noi: 'abbiamo prendito',
       voi: 'avete prendito',
-      loro: 'hanno prendito'
-    }
+      loro: 'hanno prendito',
+    },
   },
-    {
+  {
     verb: 'pulire',
     translation: 'to clean',
     conjugation: {
@@ -344,10 +344,10 @@ export const passatoProssimo = [
       lui: 'ha pulito',
       noi: 'abbiamo pulito',
       voi: 'avete pulito',
-      loro: 'hanno pulito'
-    }
+      loro: 'hanno pulito',
+    },
   },
-      {
+  {
     verb: 'restare',
     translation: 'to stay',
     conjugation: {
@@ -356,10 +356,10 @@ export const passatoProssimo = [
       lui: 'ha rimasto',
       noi: 'abbiamo rimasto',
       voi: 'avete rimasto',
-      loro: 'hanno rimasto'
-    }
+      loro: 'hanno rimasto',
+    },
   },
-        {
+  {
     verb: 'ricevere',
     translation: 'to receive',
     conjugation: {
@@ -368,8 +368,8 @@ export const passatoProssimo = [
       lui: 'ha ricevuto',
       noi: 'abbiamo ricevuto',
       voi: 'avete ricevuto',
-      loro: 'hanno ricevuto'
-    }
+      loro: 'hanno ricevuto',
+    },
   },
   {
     verb: 'risparmiare',
@@ -380,7 +380,7 @@ export const passatoProssimo = [
       lui: 'ha risparmiato',
       noi: 'abbiamo risparmiato',
       voi: 'avete risparmiato',
-      loro: 'hanno risparmiato'
-    }
-  }
-]
+      loro: 'hanno risparmiato',
+    },
+  },
+];

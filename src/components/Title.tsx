@@ -20,11 +20,7 @@ const Title: React.FC<Props> = ({ children, size = 'lg', color }) => {
       textSizeClass = 'text-xl';
   }
 
-  return (
-    <h2 className={`font-bold ${textSizeClass} ${color}`}>
-      {children}
-    </h2>
-  );
+  return <h2 className={`font-bold ${textSizeClass} ${color}`}>{children}</h2>;
 };
 
 export default Title;

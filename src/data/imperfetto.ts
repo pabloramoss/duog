@@ -8,8 +8,8 @@ export const imperfetto = [
       lui: 'abitava',
       noi: 'abitavamo',
       voi: 'abitavate',
-      loro: 'abitavano'
-    }
+      loro: 'abitavano',
+    },
   },
   {
     verb: 'aiutare',
@@ -20,8 +20,8 @@ export const imperfetto = [
       lui: 'aiutava',
       noi: 'aiutavamo',
       voi: 'aiutavate',
-      loro: 'aiutavano'
-    }
+      loro: 'aiutavano',
+    },
   },
   {
     verb: 'andare',
@@ -32,8 +32,8 @@ export const imperfetto = [
       lui: 'andava',
       noi: 'andavamo',
       voi: 'andavate',
-      loro: 'andavano'
-    }
+      loro: 'andavano',
+    },
   },
   {
     verb: 'aprire',
@@ -44,8 +44,8 @@ export const imperfetto = [
       lui: 'apriva',
       noi: 'aprivamo',
       voi: 'aprivate',
-      loro: 'aprivano'
-    }
+      loro: 'aprivano',
+    },
   },
   {
     verb: 'arrivare',
@@ -56,8 +56,8 @@ export const imperfetto = [
       lui: 'arrivava',
       noi: 'arrivavamo',
       voi: 'arrivavate',
-      loro: 'arrivavano'
-    }
+      loro: 'arrivavano',
+    },
   },
   {
     verb: 'aspettare',
@@ -68,8 +68,8 @@ export const imperfetto = [
       lui: 'aspettava',
       noi: 'aspettavamo',
       voi: 'aspettavate',
-      loro: 'aspettavano'
-    }
+      loro: 'aspettavano',
+    },
   },
   {
     verb: 'avere',
@@ -80,8 +80,8 @@ export const imperfetto = [
       lui: 'aveva',
       noi: 'avevamo',
       voi: 'avevate',
-      loro: 'avevano'
-    }
+      loro: 'avevano',
+    },
   },
   {
     verb: 'bere',
@@ -92,8 +92,8 @@ export const imperfetto = [
       lui: 'beveva',
       noi: 'bevevamo',
       voi: 'bevevate',
-      loro: 'bevevano'
-    }
+      loro: 'bevevano',
+    },
   },
   {
     verb: 'cambiare',
@@ -104,8 +104,8 @@ export const imperfetto = [
       lui: 'cambiava',
       noi: 'cambiavamo',
       voi: 'cambiavate',
-      loro: 'cambiavano'
-    }
+      loro: 'cambiavano',
+    },
   },
   {
     verb: 'camminare',
@@ -116,8 +116,8 @@ export const imperfetto = [
       lui: 'camminava',
       noi: 'camminavamo',
       voi: 'camminavate',
-      loro: 'camminavano'
-    }
+      loro: 'camminavano',
+    },
   },
   {
     verb: 'essere',
@@ -128,8 +128,8 @@ export const imperfetto = [
       lui: 'era',
       noi: 'eravamo',
       voi: 'eravate',
-      loro: 'erano'
-    }
+      loro: 'erano',
+    },
   },
   {
     verb: 'capire',
@@ -140,10 +140,10 @@ export const imperfetto = [
       lui: 'capiva',
       noi: 'capivamo',
       voi: 'capivate',
-      loro: 'capivano'
-    }
+      loro: 'capivano',
+    },
   },
-    {
+  {
     verb: 'cercare',
     translation: 'to look for',
     conjugation: {
@@ -152,10 +152,10 @@ export const imperfetto = [
       lui: 'cercava',
       noi: 'cercavamo',
       voi: 'cercavate',
-      loro: 'cercavano'
-    }
+      loro: 'cercavano',
+    },
   },
-      {
+  {
     verb: 'chiamare',
     translation: 'to call',
     conjugation: {
@@ -164,10 +164,10 @@ export const imperfetto = [
       lui: 'chiamava',
       noi: 'chiamavamo',
       voi: 'chiamavate',
-      loro: 'chiamavano'
-    }
+      loro: 'chiamavano',
+    },
   },
-    {
+  {
     verb: 'chiedere',
     translation: 'to ask',
     conjugation: {
@@ -176,10 +176,10 @@ export const imperfetto = [
       lui: 'chiedeva',
       noi: 'chiedevamo',
       voi: 'chiedevate',
-      loro: 'chiedevano'
-    }
+      loro: 'chiedevano',
+    },
   },
-    {
+  {
     verb: 'chiudere',
     translation: 'to close',
     conjugation: {
@@ -188,10 +188,10 @@ export const imperfetto = [
       lui: 'chiudeva',
       noi: 'chiudevamo',
       voi: 'chiudevate',
-      loro: 'chiudevano'
-    }
+      loro: 'chiudevano',
+    },
   },
-    {
+  {
     verb: 'cominciare',
     translation: 'to begin',
     conjugation: {
@@ -200,9 +200,9 @@ export const imperfetto = [
       lui: 'cominciava',
       noi: 'cominciavamo',
       voi: 'cominciavate',
-      loro: 'cominciavano'
-    }
-  },    
+      loro: 'cominciavano',
+    },
+  },
   {
     verb: 'comprare',
     translation: 'to buy',
@@ -212,10 +212,10 @@ export const imperfetto = [
       lui: 'comprava',
       noi: 'compravamo',
       voi: 'compravate',
-      loro: 'compravano'
-    }
+      loro: 'compravano',
+    },
   },
-    {
+  {
     verb: 'conoscere',
     translation: 'to know',
     conjugation: {
@@ -224,10 +224,10 @@ export const imperfetto = [
       lui: 'conosceva',
       noi: 'conoscevamo',
       voi: 'conoscevate',
-      loro: 'conoscevano'
-    }
+      loro: 'conoscevano',
+    },
   },
-      {
+  {
     verb: 'credere',
     translation: 'to believe',
     conjugation: {
@@ -236,8 +236,8 @@ export const imperfetto = [
       lui: 'credeva',
       noi: 'credevamo',
       voi: 'credevate',
-      loro: 'credevano'
-    }
+      loro: 'credevano',
+    },
   },
   {
     verb: 'decidere',
@@ -248,8 +248,8 @@ export const imperfetto = [
       lui: 'decideva',
       noi: 'decidevamo',
       voi: 'decidevate',
-      loro: 'decivano'
-    }
+      loro: 'decivano',
+    },
   },
   {
     verb: 'perdere',
@@ -260,10 +260,10 @@ export const imperfetto = [
       lui: 'perdeva',
       noi: 'perdevamo',
       voi: 'perdevate',
-      loro: 'perdevano'
-    }
+      loro: 'perdevano',
+    },
   },
-    {
+  {
     verb: 'piacere',
     translation: 'to like',
     conjugation: {
@@ -272,10 +272,10 @@ export const imperfetto = [
       lui: 'piaceva',
       noi: 'piacevamo',
       voi: 'piacevate',
-      loro: 'piacevano'
-    }
+      loro: 'piacevano',
+    },
   },
-      {
+  {
     verb: 'porre',
     translation: 'to put',
     conjugation: {
@@ -284,10 +284,10 @@ export const imperfetto = [
       lui: 'porreva',
       noi: 'porrevamo',
       voi: 'porrevate',
-      loro: 'porrevano'
-    }
+      loro: 'porrevano',
+    },
   },
-    {
+  {
     verb: 'portare',
     translation: 'to bring',
     conjugation: {
@@ -296,10 +296,10 @@ export const imperfetto = [
       lui: 'portava',
       noi: 'portavamo',
       voi: 'portavate',
-      loro: 'portavano'
-    }
+      loro: 'portavano',
+    },
   },
-    {
+  {
     verb: 'potere',
     translation: 'to be able to',
     conjugation: {
@@ -308,10 +308,10 @@ export const imperfetto = [
       lui: 'potava',
       noi: 'potavamo',
       voi: 'potavate',
-      loro: 'potavano'
-    }
+      loro: 'potavano',
+    },
   },
-    {
+  {
     verb: 'preferire',
     translation: 'to prefer',
     conjugation: {
@@ -320,9 +320,9 @@ export const imperfetto = [
       lui: 'preferiva',
       noi: 'preferivamo',
       voi: 'preferivate',
-      loro: 'preferivano'
-    }
-  },    
+      loro: 'preferivano',
+    },
+  },
   {
     verb: 'prendere',
     translation: 'to take',
@@ -332,10 +332,10 @@ export const imperfetto = [
       lui: 'prendava',
       noi: 'prendavamo',
       voi: 'prendavate',
-      loro: 'prendavano'
-    }
+      loro: 'prendavano',
+    },
   },
-    {
+  {
     verb: 'pulire',
     translation: 'to clean',
     conjugation: {
@@ -344,10 +344,10 @@ export const imperfetto = [
       lui: 'puliva',
       noi: 'pulivamo',
       voi: 'pulivate',
-      loro: 'pulivano'
-    }
+      loro: 'pulivano',
+    },
   },
-      {
+  {
     verb: 'restare',
     translation: 'to stay',
     conjugation: {
@@ -356,10 +356,10 @@ export const imperfetto = [
       lui: 'restava',
       noi: 'restavamo',
       voi: 'restavate',
-      loro: 'restavano'
-    }
+      loro: 'restavano',
+    },
   },
-        {
+  {
     verb: 'ricevere',
     translation: 'to receive',
     conjugation: {
@@ -368,8 +368,8 @@ export const imperfetto = [
       lui: 'riceveva',
       noi: 'ricevevamo',
       voi: 'ricevevate',
-      loro: 'ricevevano'
-    }
+      loro: 'ricevevano',
+    },
   },
   {
     verb: 'ricordare',
@@ -380,10 +380,10 @@ export const imperfetto = [
       lui: 'ricordava',
       noi: 'ricordavamo',
       voi: 'ricordavate',
-      loro: 'ricordavano'
-    }
+      loro: 'ricordavano',
+    },
   },
-    {
+  {
     verb: 'ridere',
     translation: 'to laugh',
     conjugation: {
@@ -392,10 +392,10 @@ export const imperfetto = [
       lui: 'rideva',
       noi: 'ridevamo',
       voi: 'ridevate',
-      loro: 'ridevano'
-    }
+      loro: 'ridevano',
+    },
   },
-      {
+  {
     verb: 'rimanere',
     translation: 'to remain',
     conjugation: {
@@ -404,10 +404,10 @@ export const imperfetto = [
       lui: 'rimanava',
       noi: 'rimanavamo',
       voi: 'rimanavate',
-      loro: 'rimanavano'
-    }
+      loro: 'rimanavano',
+    },
   },
-    {
+  {
     verb: 'rispondere',
     translation: 'to answer',
     conjugation: {
@@ -416,10 +416,10 @@ export const imperfetto = [
       lui: 'rispondeva',
       noi: 'rispondevamo',
       voi: 'rispondevate',
-      loro: 'rispondevano'
-    }
+      loro: 'rispondevano',
+    },
   },
-    {
+  {
     verb: 'riuscire',
     translation: 'to succeed',
     conjugation: {
@@ -428,10 +428,10 @@ export const imperfetto = [
       lui: 'riusciva',
       noi: 'riuscivamo',
       voi: 'riuscivate',
-      loro: 'riuscivano'
-    }
+      loro: 'riuscivano',
+    },
   },
-    {
+  {
     verb: 'salire',
     translation: 'to go up',
     conjugation: {
@@ -440,9 +440,9 @@ export const imperfetto = [
       lui: 'saliva',
       noi: 'salivamo',
       voi: 'salivate',
-      loro: 'salivano'
-    }
-  },    
+      loro: 'salivano',
+    },
+  },
   {
     verb: 'sapere',
     translation: 'to know',
@@ -452,10 +452,10 @@ export const imperfetto = [
       lui: 'sapeva',
       noi: 'sapevamo',
       voi: 'sapevate',
-      loro: 'sapevano'
-    }
+      loro: 'sapevano',
+    },
   },
-    {
+  {
     verb: 'scegliere',
     translation: 'to choose',
     conjugation: {
@@ -464,10 +464,10 @@ export const imperfetto = [
       lui: 'sceglieva',
       noi: 'sceglievamo',
       voi: 'sceglievate',
-      loro: 'sceglievano'
-    }
+      loro: 'sceglievano',
+    },
   },
-      {
+  {
     verb: 'scendere',
     translation: 'to go down',
     conjugation: {
@@ -476,10 +476,10 @@ export const imperfetto = [
       lui: 'scendeva',
       noi: 'scendevamo',
       voi: 'scendevate',
-      loro: 'scendevano'
-    }
+      loro: 'scendevano',
+    },
   },
-        {
+  {
     verb: 'scrivere',
     translation: 'to write',
     conjugation: {
@@ -488,10 +488,10 @@ export const imperfetto = [
       lui: 'scriveva',
       noi: 'scrivevamo',
       voi: 'scrivevate',
-      loro: 'scrivevano'
-    }
+      loro: 'scrivevano',
+    },
   },
-        {
+  {
     verb: 'seguire',
     translation: 'to follow',
     conjugation: {
@@ -500,10 +500,10 @@ export const imperfetto = [
       lui: 'seguiva',
       noi: 'seguivamo',
       voi: 'seguivate',
-      loro: 'seguivano'
-    }
+      loro: 'seguivano',
+    },
   },
-        {
+  {
     verb: 'sentire',
     translation: 'to hear',
     conjugation: {
@@ -512,7 +512,7 @@ export const imperfetto = [
       lui: 'sentiva',
       noi: 'sentivamo',
       voi: 'sentivate',
-      loro: 'sentivano'
-    }
+      loro: 'sentivano',
+    },
   },
-]
+];

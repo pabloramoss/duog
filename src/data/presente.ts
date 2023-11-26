@@ -8,8 +8,8 @@ export const presente = [
       lui: 'abita',
       noi: 'abitiamo',
       voi: 'abitate',
-      loro: 'abitano'
-    }
+      loro: 'abitano',
+    },
   },
   {
     verb: 'aiutare',
@@ -20,8 +20,8 @@ export const presente = [
       lui: 'aiuta',
       noi: 'aiutiamo',
       voi: 'aiutate',
-      loro: 'aiutano'
-    }
+      loro: 'aiutano',
+    },
   },
   {
     verb: 'andare',
@@ -32,8 +32,8 @@ export const presente = [
       lui: 'va',
       noi: 'andiamo',
       voi: 'andate',
-      loro: 'vanno'
-    }
+      loro: 'vanno',
+    },
   },
   {
     verb: 'aprire',
@@ -44,8 +44,8 @@ export const presente = [
       lui: 'apre',
       noi: 'apriamo',
       voi: 'aprite',
-      loro: 'aprono'
-    }
+      loro: 'aprono',
+    },
   },
   {
     verb: 'arrivare',
@@ -56,8 +56,8 @@ export const presente = [
       lui: 'arriva',
       noi: 'arriviamo',
       voi: 'arrivate',
-      loro: 'arrivano'
-    }
+      loro: 'arrivano',
+    },
   },
   {
     verb: 'aspettare',
@@ -68,8 +68,8 @@ export const presente = [
       lui: 'aspetta',
       noi: 'aspettiamo',
       voi: 'aspettate',
-      loro: 'aspettano'
-    }
+      loro: 'aspettano',
+    },
   },
   {
     verb: 'avere',
@@ -80,8 +80,8 @@ export const presente = [
       lui: 'ha',
       noi: 'abbiamo',
       voi: 'avete',
-      loro: 'hanno'
-    }
+      loro: 'hanno',
+    },
   },
   {
     verb: 'bere',
@@ -92,8 +92,8 @@ export const presente = [
       lui: 'beve',
       noi: 'beviamo',
       voi: 'bevete',
-      loro: 'bevono'
-    }
+      loro: 'bevono',
+    },
   },
   {
     verb: 'cambiare',
@@ -104,8 +104,8 @@ export const presente = [
       lui: 'cambia',
       noi: 'cambiamo',
       voi: 'cambiate',
-      loro: 'cambiano'
-    }
+      loro: 'cambiano',
+    },
   },
   {
     verb: 'camminare',
@@ -116,8 +116,8 @@ export const presente = [
       lui: 'cammina',
       noi: 'camminiamo',
       voi: 'camminate',
-      loro: 'camminano'
-    }
+      loro: 'camminano',
+    },
   },
   {
     verb: 'essere',
@@ -128,8 +128,8 @@ export const presente = [
       lui: 'è',
       noi: 'siamo',
       voi: 'siete',
-      loro: 'sono'
-    }
+      loro: 'sono',
+    },
   },
   {
     verb: 'capire',
@@ -140,10 +140,10 @@ export const presente = [
       lui: 'capisce',
       noi: 'capiamo',
       voi: 'capite',
-      loro: 'capiscono'
-    }
+      loro: 'capiscono',
+    },
   },
-    {
+  {
     verb: 'cercare',
     translation: 'to look for',
     conjugation: {
@@ -152,10 +152,10 @@ export const presente = [
       lui: 'cerca',
       noi: 'cerchiamo',
       voi: 'cercate',
-      loro: 'cercano'
-    }
+      loro: 'cercano',
+    },
   },
-      {
+  {
     verb: 'chiamare',
     translation: 'to call',
     conjugation: {
@@ -164,10 +164,10 @@ export const presente = [
       lui: 'chiama',
       noi: 'chiamiamo',
       voi: 'chiamate',
-      loro: 'chiamano'
-    }
+      loro: 'chiamano',
+    },
   },
-    {
+  {
     verb: 'chiedere',
     translation: 'to ask',
     conjugation: {
@@ -176,10 +176,10 @@ export const presente = [
       lui: 'chiede',
       noi: 'chiediamo',
       voi: 'chiedete',
-      loro: 'chiedono'
-    }
+      loro: 'chiedono',
+    },
   },
-    {
+  {
     verb: 'chiudere',
     translation: 'to close',
     conjugation: {
@@ -188,10 +188,10 @@ export const presente = [
       lui: 'chiude',
       noi: 'chiudiamo',
       voi: 'chiudete',
-      loro: 'chiudono'
-    }
+      loro: 'chiudono',
+    },
   },
-    {
+  {
     verb: 'cominciare',
     translation: 'to start',
     conjugation: {
@@ -200,9 +200,9 @@ export const presente = [
       lui: 'comincia',
       noi: 'cominciamo',
       voi: 'cominciate',
-      loro: 'cominciano'
-    }
-  },    
+      loro: 'cominciano',
+    },
+  },
   {
     verb: 'comprare',
     translation: 'to buy',
@@ -212,10 +212,10 @@ export const presente = [
       lui: 'compra',
       noi: 'compriamo',
       voi: 'comprate',
-      loro: 'comprano'
-    }
+      loro: 'comprano',
+    },
   },
-    {
+  {
     verb: 'conoscere',
     translation: 'to know',
     conjugation: {
@@ -224,10 +224,10 @@ export const presente = [
       lui: 'conosce',
       noi: 'conosciamo',
       voi: 'conoscete',
-      loro: 'conoscono'
-    }
+      loro: 'conoscono',
+    },
   },
-      {
+  {
     verb: 'credere',
     translation: 'to believe',
     conjugation: {
@@ -236,10 +236,10 @@ export const presente = [
       lui: 'crede',
       noi: 'crediamo',
       voi: 'credete',
-      loro: 'credono'
-    }
+      loro: 'credono',
+    },
   },
-        {
+  {
     verb: 'decidere',
     translation: 'to decide',
     conjugation: {
@@ -248,8 +248,8 @@ export const presente = [
       lui: 'decide',
       noi: 'decidiamo',
       voi: 'decidete',
-      loro: 'decidono'
-    }
+      loro: 'decidono',
+    },
   },
   {
     verb: 'perdere',
@@ -260,10 +260,10 @@ export const presente = [
       lui: 'perde',
       noi: 'perdiamo',
       voi: 'perdete',
-      loro: 'perdono'
-    }
+      loro: 'perdono',
+    },
   },
-    {
+  {
     verb: 'piacere',
     translation: 'to like',
     conjugation: {
@@ -272,10 +272,10 @@ export const presente = [
       lui: 'piace',
       noi: 'piacciamo',
       voi: 'piacete',
-      loro: 'piacciono'
-    }
+      loro: 'piacciono',
+    },
   },
-      {
+  {
     verb: 'porre',
     translation: 'to put',
     conjugation: {
@@ -284,10 +284,10 @@ export const presente = [
       lui: 'pone',
       noi: 'poniamo',
       voi: 'ponete',
-      loro: 'pongono'
-    }
+      loro: 'pongono',
+    },
   },
-    {
+  {
     verb: 'portare',
     translation: 'to bring',
     conjugation: {
@@ -296,10 +296,10 @@ export const presente = [
       lui: 'porta',
       noi: 'portiamo',
       voi: 'portate',
-      loro: 'portano'
-    }
+      loro: 'portano',
+    },
   },
-    {
+  {
     verb: 'potere',
     translation: 'to be able to',
     conjugation: {
@@ -308,10 +308,10 @@ export const presente = [
       lui: 'può',
       noi: 'possiamo',
       voi: 'potete',
-      loro: 'possono'
-    }
+      loro: 'possono',
+    },
   },
-    {
+  {
     verb: 'preferire',
     translation: 'to prefer',
     conjugation: {
@@ -320,9 +320,9 @@ export const presente = [
       lui: 'preferisce',
       noi: 'preferiamo',
       voi: 'preferite',
-      loro: 'preferiscono'
-    }
-  },    
+      loro: 'preferiscono',
+    },
+  },
   {
     verb: 'prendere',
     translation: 'to take',
@@ -332,10 +332,10 @@ export const presente = [
       lui: 'prende',
       noi: 'prendiamo',
       voi: 'prendete',
-      loro: 'prendono'
-    }
+      loro: 'prendono',
+    },
   },
-    {
+  {
     verb: 'pulire',
     translation: 'to clean',
     conjugation: {
@@ -344,10 +344,10 @@ export const presente = [
       lui: 'pulisce',
       noi: 'puliamo',
       voi: 'pulite',
-      loro: 'puliscono'
-    }
+      loro: 'puliscono',
+    },
   },
-      {
+  {
     verb: 'restare',
     translation: 'to stay',
     conjugation: {
@@ -356,10 +356,10 @@ export const presente = [
       lui: 'resta',
       noi: 'restiamo',
       voi: 'restate',
-      loro: 'restano'
-    }
+      loro: 'restano',
+    },
   },
-        {
+  {
     verb: 'ricevere',
     translation: 'to receive',
     conjugation: {
@@ -368,7 +368,7 @@ export const presente = [
       lui: 'riceve',
       noi: 'riceviamo',
       voi: 'ricevete',
-      loro: 'ricevono'
-    }
+      loro: 'ricevono',
+    },
   },
-]
+];

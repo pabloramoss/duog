@@ -8,8 +8,8 @@ export const futuroSemplice = [
       lui: 'abiterà',
       noi: 'abiteremo',
       voi: 'abiterete',
-      loro: 'abiteranno'
-    }
+      loro: 'abiteranno',
+    },
   },
   {
     verb: 'aiutare',
@@ -20,8 +20,8 @@ export const futuroSemplice = [
       lui: 'aiuterà',
       noi: 'aiuteremo',
       voi: 'aiuterete',
-      loro: 'aiuteranno'
-    }
+      loro: 'aiuteranno',
+    },
   },
   {
     verb: 'andare',
@@ -32,8 +32,8 @@ export const futuroSemplice = [
       lui: 'andrà',
       noi: 'andremo',
       voi: 'andrete',
-      loro: 'andranno'
-    }
+      loro: 'andranno',
+    },
   },
   {
     verb: 'aprire',
@@ -44,8 +44,8 @@ export const futuroSemplice = [
       lui: 'aprirà',
       noi: 'apriremo',
       voi: 'aprirete',
-      loro: 'apriranno'
-    }
+      loro: 'apriranno',
+    },
   },
   {
     verb: 'arrivare',
@@ -56,8 +56,8 @@ export const futuroSemplice = [
       lui: 'arriverà',
       noi: 'arriveremo',
       voi: 'arriverete',
-      loro: 'arriveranno'
-    }
+      loro: 'arriveranno',
+    },
   },
   {
     verb: 'aspettare',
@@ -68,8 +68,8 @@ export const futuroSemplice = [
       lui: 'aspetterà',
       noi: 'aspetteremo',
       voi: 'aspetterete',
-      loro: 'aspetteranno'
-    }
+      loro: 'aspetteranno',
+    },
   },
   {
     verb: 'avere',
@@ -80,8 +80,8 @@ export const futuroSemplice = [
       lui: 'avrà',
       noi: 'avremo',
       voi: 'avrete',
-      loro: 'avranno'
-    }
+      loro: 'avranno',
+    },
   },
   {
     verb: 'bere',
@@ -92,8 +92,8 @@ export const futuroSemplice = [
       lui: 'berrà',
       noi: 'berremo',
       voi: 'berrete',
-      loro: 'berranno'
-    }
+      loro: 'berranno',
+    },
   },
   {
     verb: 'cambiare',
@@ -104,8 +104,8 @@ export const futuroSemplice = [
       lui: 'cambierà',
       noi: 'cambieremo',
       voi: 'cambierete',
-      loro: 'cambieranno'
-    }
+      loro: 'cambieranno',
+    },
   },
   {
     verb: 'camminare',
@@ -116,8 +116,8 @@ export const futuroSemplice = [
       lui: 'camminerà',
       noi: 'cammineremo',
       voi: 'camminerete',
-      loro: 'cammineranno'
-    }
+      loro: 'cammineranno',
+    },
   },
   {
     verb: 'essere',
@@ -128,8 +128,8 @@ export const futuroSemplice = [
       lui: 'sarà',
       noi: 'saremo',
       voi: 'sarete',
-      loro: 'saranno'
-    }
+      loro: 'saranno',
+    },
   },
   {
     verb: 'capire',
@@ -140,10 +140,10 @@ export const futuroSemplice = [
       lui: 'capirà',
       noi: 'capiremo',
       voi: 'capirete',
-      loro: 'capiranno'
-    }
+      loro: 'capiranno',
+    },
   },
-    {
+  {
     verb: 'cercare',
     translation: 'to look for',
     conjugation: {
@@ -152,10 +152,10 @@ export const futuroSemplice = [
       lui: 'cercherà',
       noi: 'cercheremo',
       voi: 'cercherete',
-      loro: 'cercheranno'
-    }
+      loro: 'cercheranno',
+    },
   },
-      {
+  {
     verb: 'chiamare',
     translation: 'to call',
     conjugation: {
@@ -164,10 +164,10 @@ export const futuroSemplice = [
       lui: 'chiamerà',
       noi: 'chiameremo',
       voi: 'chiamerete',
-      loro: 'chiameranno'
-    }
+      loro: 'chiameranno',
+    },
   },
-    {
+  {
     verb: 'chiedere',
     translation: 'to ask',
     conjugation: {
@@ -176,10 +176,10 @@ export const futuroSemplice = [
       lui: 'chiederà',
       noi: 'chiederemo',
       voi: 'chiederete',
-      loro: 'chiederanno'
-    }
+      loro: 'chiederanno',
+    },
   },
-    {
+  {
     verb: 'chiudere',
     translation: 'to close',
     conjugation: {
@@ -188,10 +188,10 @@ export const futuroSemplice = [
       lui: 'chiuderà',
       noi: 'chiuderemo',
       voi: 'chiuderete',
-      loro: 'chiuderanno'
-    }
+      loro: 'chiuderanno',
+    },
   },
-    {
+  {
     verb: 'cominciare',
     translation: 'to start',
     conjugation: {
@@ -200,9 +200,9 @@ export const futuroSemplice = [
       lui: 'comincerà',
       noi: 'cominceremo',
       voi: 'comincerete',
-      loro: 'cominceranno'
-    }
-  },    
+      loro: 'cominceranno',
+    },
+  },
   {
     verb: 'comprare',
     translation: 'to buy',
@@ -212,10 +212,10 @@ export const futuroSemplice = [
       lui: 'comprerà',
       noi: 'compreremo',
       voi: 'comprerete',
-      loro: 'compreranno'
-    }
+      loro: 'compreranno',
+    },
   },
-    {
+  {
     verb: 'conoscere',
     translation: 'to know',
     conjugation: {
@@ -224,10 +224,10 @@ export const futuroSemplice = [
       lui: 'conoscerà',
       noi: 'conosceremo',
       voi: 'conoscerete',
-      loro: 'conosceranno'
-    }
+      loro: 'conosceranno',
+    },
   },
-      {
+  {
     verb: 'credere',
     translation: 'to believe',
     conjugation: {
@@ -236,10 +236,10 @@ export const futuroSemplice = [
       lui: 'crederà',
       noi: 'crederemo',
       voi: 'crederete',
-      loro: 'crederanno'
-    }
+      loro: 'crederanno',
+    },
   },
-        {
+  {
     verb: 'decidere',
     translation: 'to decide',
     conjugation: {
@@ -248,8 +248,8 @@ export const futuroSemplice = [
       lui: 'deciderà',
       noi: 'decideremo',
       voi: 'deciderete',
-      loro: 'decideranno'
-    }
+      loro: 'decideranno',
+    },
   },
   {
     verb: 'perdere',
@@ -260,10 +260,10 @@ export const futuroSemplice = [
       lui: 'perderà',
       noi: 'perderemo',
       voi: 'perderete',
-      loro: 'perderanno'
-    }
+      loro: 'perderanno',
+    },
   },
-    {
+  {
     verb: 'piacere',
     translation: 'to like',
     conjugation: {
@@ -272,10 +272,10 @@ export const futuroSemplice = [
       lui: 'piacerà',
       noi: 'piaceremo',
       voi: 'piacerete',
-      loro: 'piaceranno'
-    }
+      loro: 'piaceranno',
+    },
   },
-      {
+  {
     verb: 'porre',
     translation: 'to put',
     conjugation: {
@@ -284,10 +284,10 @@ export const futuroSemplice = [
       lui: 'porrà',
       noi: 'porremo',
       voi: 'porrete',
-      loro: 'porranno'
-    }
+      loro: 'porranno',
+    },
   },
-    {
+  {
     verb: 'portare',
     translation: 'to bring',
     conjugation: {
@@ -296,10 +296,10 @@ export const futuroSemplice = [
       lui: 'porterà',
       noi: 'porteremo',
       voi: 'porterete',
-      loro: 'porteranno'
-    }
+      loro: 'porteranno',
+    },
   },
-    {
+  {
     verb: 'potere',
     translation: 'to be able to',
     conjugation: {
@@ -308,10 +308,10 @@ export const futuroSemplice = [
       lui: 'potrà',
       noi: 'potremo',
       voi: 'potrete',
-      loro: 'potranno'
-    }
+      loro: 'potranno',
+    },
   },
-    {
+  {
     verb: 'preferire',
     translation: 'to prefer',
     conjugation: {
@@ -320,9 +320,9 @@ export const futuroSemplice = [
       lui: 'preferirà',
       noi: 'preferiremo',
       voi: 'preferirete',
-      loro: 'preferiranno'
-    }
-  },    
+      loro: 'preferiranno',
+    },
+  },
   {
     verb: 'prendere',
     translation: 'to take',
@@ -332,10 +332,10 @@ export const futuroSemplice = [
       lui: 'prenderà',
       noi: 'prenderemo',
       voi: 'prenderete',
-      loro: 'prenderanno'
-    }
+      loro: 'prenderanno',
+    },
   },
-    {
+  {
     verb: 'pulire',
     translation: 'to clean',
     conjugation: {
@@ -344,10 +344,10 @@ export const futuroSemplice = [
       lui: 'pulirà',
       noi: 'puliremo',
       voi: 'pulirete',
-      loro: 'puliranno'
-    }
+      loro: 'puliranno',
+    },
   },
-      {
+  {
     verb: 'restare',
     translation: 'to stay',
     conjugation: {
@@ -356,10 +356,10 @@ export const futuroSemplice = [
       lui: 'resterà',
       noi: 'resteremo',
       voi: 'resterete',
-      loro: 'resteranno'
-    }
+      loro: 'resteranno',
+    },
   },
-        {
+  {
     verb: 'ricevere',
     translation: 'to receive',
     conjugation: {
@@ -368,7 +368,7 @@ export const futuroSemplice = [
       lui: 'riceverà',
       noi: 'riceveremo',
       voi: 'riceverete',
-      loro: 'riceveranno'
-    }
+      loro: 'riceveranno',
+    },
   },
-]
+];
