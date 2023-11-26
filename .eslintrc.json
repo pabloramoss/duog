@@ -1,26 +1,33 @@
 {
-  "root": true,
-  "plugins": ["prettier", "import"],
+  "env": {
+    "browser": false,
+    "es2021": true,
+    "node": true
+  },
   "extends": [
-    "plugin:@vercel/style-guide/eslint/browser",
-    "plugin:@vercel/style-guide/eslint/node",
-    "plugin:@vercel/style-guide/eslint/typescript",
-    "plugin:@vercel/style-guide/eslint/react",
-    "plugin:@vercel/style-guide/eslint/next",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "next",
+    "next/core-web-vitals"
   ],
+  "plugins": ["react", "prettier", "import", "@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": "latest",
-    "project": "./tsconfig.json"
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
   },
   "settings": {
-    "import/resolver": {
-      "typescript": {
-        "project": "./tsconfig.json"
-      }
+    "react": {
+      "version": "detect"
     }
   },
   "rules": {
+    "no-console": "warn",
+    "react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "prettier/prettier": [
       "warn",
       {
@@ -28,61 +35,29 @@
         "trailingComma": "all",
         "tabWidth": 2,
         "semi": true,
-        "singleQuote": false,
-        "bracketSpacing": false,
+        "singleQuote": true,
+        "bracketSpacing": true,
         "arrowParens": "always",
-        "endOfLine": "auto",
-        "plugins": ["prettier-plugin-tailwindcss"]
+        "endOfLine":"auto"
       }
     ],
-    "@typescript-eslint/no-misused-promises": "off",
-    "@typescript-eslint/require-await": "off",
-    "import/no-default-export": "off",
-    "import/order": [
+    "@typescript-eslint/no-unused-vars": [
       "warn",
       {
-        "groups": [
-          "type",
-          "builtin",
-          "object",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index"
-        ],
-        "pathGroups": [
-          {
-            "pattern": "~/**",
-            "group": "external",
-            "position": "after"
-          }
-        ],
-        "newlines-between": "always"
+        "args": "after-used",
+        "ignoreRestSiblings": false,
+        "argsIgnorePattern": "^_.*?$"
       }
     ],
-    "padding-line-between-statements": [
-      "warn",
-      {
-        "blankLine": "always",
-        "prev": "*",
-        "next": ["return", "export"]
-      },
-      {
-        "blankLine": "always",
-        "prev": ["const", "let", "var"],
-        "next": "*"
-      },
-      {
-        "blankLine": "any",
-        "prev": ["const", "let", "var"],
-        "next": ["const", "let", "var"]
-      }
-    ],
-    "no-console": "warn",
-    "react/prop-types": "off",
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off",
+    "import/order": ["warn", {
+      "groups": ["type", "builtin", "object", "external", "internal", "parent", "sibling", "index"],
+      "pathGroups": [{
+        "pattern": "~/**",
+        "group": "external",
+        "position": "after"
+      }],
+      "newlines-between": "always"
+    }],
     "react/self-closing-comp": "warn",
     "react/jsx-sort-props": [
       "warn",
@@ -93,15 +68,11 @@
         "reservedFirst": true
       }
     ],
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-unused-vars": [
+    "padding-line-between-statements": [
       "warn",
-      {
-        "args": "after-used",
-        "ignoreRestSiblings": false,
-        "argsIgnorePattern": "^_.*?$"
-      }
+      {"blankLine": "always", "prev": "*", "next": ["return", "export"]},
+      {"blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
+      {"blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
     ]
   }
 }

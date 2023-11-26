@@ -46,7 +46,7 @@ export interface LessonData {
       }
     }[]
   },
-  futuro: {
+  futuroSemplice: {
     verbs: {
       verb: string,
       translation: string,
