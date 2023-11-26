@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Navigation } from 'swiper/modules';
-const Page = ({params: {lesson}}: {params: {lesson: string}}) => {
+const Page = ({params: {lesson}}: {params: {lesson: 'passatoProssimo' | 'imperfetto' | 'presente' }}) => {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
@@ -20,7 +20,6 @@ const Page = ({params: {lesson}}: {params: {lesson: string}}) => {
       <div style={{width: "500px"}}>
         <Swiper style={{}} navigation={true} modules={[Navigation]} className="mySwiper">
           {
-            //@ts-ignore
             data[lesson].verbs.map((verb) => (
               <SwiperSlide key={verb.verb}>
                 <Card
