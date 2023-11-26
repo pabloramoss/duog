@@ -63,7 +63,7 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations, translation }) => {
                 type="text"
               />
               {
-                isCheck ? ((conjugationsValue as any)[conjugation] === conjugations[conjugation as keyof Conjugation] ? <span>✅</span> : <div className="flex text-sm items-center whitespace-nowrap"><span>❌</span><p>{conjugations[conjugation as keyof Conjugation]}</p></div>) : <span>👀</span>
+                isCheck ? ((conjugationsValue as any)[conjugation].toLowerCase() === conjugations[conjugation as keyof Conjugation] ? <span>✅</span> : <div className="flex text-sm items-center whitespace-nowrap"><span>❌</span><p>{conjugations[conjugation as keyof Conjugation]}</p></div>) : <span>👀</span>
               }
             </div>
           </div>
