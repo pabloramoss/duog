@@ -20,3 +20,8 @@ export function getProgress(chapters: Chapter[]) {
   const progress = (completedLessons / totalLessons) * 100;
   return Math.round(progress);
 }
+
+export function splitCamelCase(inputString: string) {
+
+  return inputString.replace(/([a-z])([A-Z])/g, '$1 $2');
+}

@@ -1,6 +1,7 @@
 export const passatoProssimo = [
   {
     verb: 'abitare',
+    translation: 'to live',
     conjugation: {
       io: 'ho abitato',
       tu: 'hai abitato',
@@ -12,6 +13,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'aiutare',
+    translation: 'to help',
     conjugation: {
       io: 'ho aiutato',
       tu: 'hai aiutato',
@@ -23,6 +25,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'andare',
+    translation: 'to go',
     conjugation: {
       io: 'ho andato',
       tu: 'hai andato',
@@ -34,6 +37,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'aprire',
+    translation: 'to open',
     conjugation: {
       io: 'ho aperto',
       tu: 'hai aperto',
@@ -45,6 +49,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'arrivare',
+    translation: 'to arrive',
     conjugation: {
       io: 'sono arrivato',
       tu: 'sei arrivati',
@@ -56,6 +61,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'aspettare',
+    translation: 'to wait',
     conjugation: {
       io: 'ho aspettato',
       tu: 'hai aspettato',
@@ -67,6 +73,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'avere',
+    translation: 'to have',
     conjugation: {
       io: 'ho avuto',
       tu: 'hai avuto',
@@ -78,6 +85,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'bere',
+    translation: 'to drink',
     conjugation: {
       io: 'ho bevuto',
       tu: 'hai bevuto',
@@ -89,6 +97,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'cambiare',
+    translation: 'to change',
     conjugation: {
       io: 'ho cambiato',
       tu: 'hai cambiato',
@@ -100,6 +109,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'camminare',
+    translation: 'to walk',
     conjugation: {
       io: 'ho camminato',
       tu: 'hai camminato',
@@ -111,6 +121,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'essere',
+    translation: 'to be',
     conjugation: {
       io: 'sono stato',
       tu: 'sei stato',
@@ -122,6 +133,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'capire',
+    translation: 'to understand',
     conjugation: {
       io: 'ho capito',
       tu: 'hai capito',
@@ -133,6 +145,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'cercare',
+    translation: 'to look for',
     conjugation: {
       io: 'ho cercato',
       tu: 'hai cercato',
@@ -144,6 +157,7 @@ export const passatoProssimo = [
   },
       {
     verb: 'chiamare',
+    translation: 'to call',
     conjugation: {
       io: 'ho chiamato',
       tu: 'hai chiamato',
@@ -155,6 +169,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'chiedere',
+    translation: 'to ask',
     conjugation: {
       io: 'ho chiesto',
       tu: 'hai chiesto',
@@ -166,6 +181,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'chiudere',
+    translation: 'to close',
     conjugation: {
       io: 'ho chiuso',
       tu: 'hai chiuso',
@@ -177,6 +193,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'cominciare',
+    translation: 'to begin',
     conjugation: {
       io: 'comincio',
       tu: 'cominci',
@@ -188,6 +205,7 @@ export const passatoProssimo = [
   },    
   {
     verb: 'comprare',
+    translation: 'to buy',
     conjugation: {
       io: 'ho comprato',
       tu: 'hai comprato',
@@ -199,6 +217,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'conoscere',
+    translation: 'to know',
     conjugation: {
       io: 'ho conosciuto',
       tu: 'hai conosciuto',
@@ -208,8 +227,9 @@ export const passatoProssimo = [
       loro: 'hanno conosciuto'
     }
   },
-      {
+    {
     verb: 'credere',
+    translation: 'to believe',
     conjugation: {
       io: 'ho creduto',
       tu: 'hai creduto',
@@ -219,8 +239,9 @@ export const passatoProssimo = [
       loro: 'hanno creduto'
     }
   },
-        {
+    {
     verb: 'decidere',
+    translation: 'to decide',
     conjugation: {
       io: 'ho deciso',
       tu: 'hai deciso',
@@ -232,6 +253,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'perdere',
+    translation: 'to lose',
     conjugation: {
       io: 'ho perso',
       tu: 'hai perso',
@@ -243,6 +265,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'piacere',
+    translation: 'to like',
     conjugation: {
       io: 'ho piaciuto',
       tu: 'hai piaciuto',
@@ -254,6 +277,7 @@ export const passatoProssimo = [
   },
       {
     verb: 'porre',
+    translation: 'to put',
     conjugation: {
       io: 'ho posto',
       tu: 'hai posto',
@@ -265,6 +289,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'portare',
+    translation: 'to bring',
     conjugation: {
       io: 'ho portato',
       tu: 'hai portato',
@@ -276,6 +301,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'potere',
+    translation: 'to be able to',
     conjugation: {
       io: 'ho potuto',
       tu: 'hai potuto',
@@ -287,6 +313,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'preferire',
+    translation: 'to prefer',
     conjugation: {
       io: 'ho preferito',
       tu: 'hai preferito',
@@ -298,6 +325,7 @@ export const passatoProssimo = [
   },    
   {
     verb: 'prendere',
+    translation: 'to take',
     conjugation: {
       io: 'ho prendito',
       tu: 'hai prendito',
@@ -309,6 +337,7 @@ export const passatoProssimo = [
   },
     {
     verb: 'pulire',
+    translation: 'to clean',
     conjugation: {
       io: 'ho pulito',
       tu: 'hai pulito',
@@ -320,6 +349,7 @@ export const passatoProssimo = [
   },
       {
     verb: 'restare',
+    translation: 'to stay',
     conjugation: {
       io: 'ho rimasto',
       tu: 'hai rimasto',
@@ -331,6 +361,7 @@ export const passatoProssimo = [
   },
         {
     verb: 'ricevere',
+    translation: 'to receive',
     conjugation: {
       io: 'ho ricevuto',
       tu: 'hai ricevuto',
@@ -342,6 +373,7 @@ export const passatoProssimo = [
   },
   {
     verb: 'risparmiare',
+    translation: 'to save',
     conjugation: {
       io: 'ho risparmiato',
       tu: 'hai risparmiato',

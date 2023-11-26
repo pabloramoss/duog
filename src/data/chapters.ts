@@ -6,12 +6,12 @@ export const chapters = [
         name: 'Presente',
         description: 'It is used to talk about actions happening in the present.',
         done: true,
-        available: false,
+        available: true,
       },
       {
         name: 'Passato Prossimo',
         description: 'It is used to describe actions completed in the recent past.',
-        done: true,
+        done: false,
         available: true,
       },
     ],
@@ -23,7 +23,7 @@ export const chapters = [
         name: 'Futuro Semplice',
         description: 'It is used to talk about actions that will happen in the future.',
         done: false,
-        available: false,
+        available: true,
       },
       {
         name: 'Condizionale',

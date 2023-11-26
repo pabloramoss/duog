@@ -9,8 +9,7 @@ interface Props {
 }
 
 const DashboardLesson: React.FC<Props> = ({lesson}) => {
-  console.log(lesson)
-  const { name, description, done } = lesson;
+  const { name, description, done, available } = lesson;
   const router = useRouter()
 
   function transformLessonName(lessonName: string) {
@@ -30,7 +29,7 @@ const DashboardLesson: React.FC<Props> = ({lesson}) => {
 
   return (
     <button disabled={!lesson.available} onClick={handleRedirect} className={`${lesson.available ? "cursor-pointer":"cursor-not-allowed"} flex gap-6 items-center p-6 rounded-xl ${lesson.available && "hover:bg-slate-200"}`}>
-      <Avatar done={done} />
+      <Avatar done={done} available={available} />
       <div>
         <Title size="sm">{name}</Title>
         <p>{description}</p>

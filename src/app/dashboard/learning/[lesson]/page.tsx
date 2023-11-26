@@ -12,11 +12,12 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Navigation } from 'swiper/modules';
-const Page = ({params: {lesson}}: {params: {lesson: 'passatoProssimo' | 'imperfetto' | 'presente' }}) => {
+import { splitCamelCase } from '@/lib/utils';
+const Page = ({params: {lesson}}: {params: {lesson: 'passatoProssimo' | 'imperfetto' | 'presente' | 'futuro' }}) => {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className='text-4xl font-bold mb-20'>DUOGRINGO</h1>
+      <h1 className='text-4xl font-bold mb-20'>{splitCamelCase(lesson).toUpperCase()}</h1>
       <div style={{width: "500px"}}>
         <Swiper style={{}} navigation={true} modules={[Navigation]} className="mySwiper">
           {
@@ -26,6 +27,7 @@ const Page = ({params: {lesson}}: {params: {lesson: 'passatoProssimo' | 'imperfe
                   tense={lesson}
                   verb={verb.verb}
                   conjugations={verb.conjugation as Conjugation}
+                  translation={verb.translation}
                 />
               </SwiperSlide>
             ))

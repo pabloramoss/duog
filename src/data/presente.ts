@@ -1,6 +1,7 @@
 export const presente = [
   {
     verb: 'abitare',
+    translation: 'to live',
     conjugation: {
       io: 'abito',
       tu: 'abiti',
@@ -12,6 +13,7 @@ export const presente = [
   },
   {
     verb: 'aiutare',
+    translation: 'to help',
     conjugation: {
       io: 'aiuto',
       tu: 'aiuti',
@@ -23,6 +25,7 @@ export const presente = [
   },
   {
     verb: 'andare',
+    translation: 'to go',
     conjugation: {
       io: 'vado',
       tu: 'vai',
@@ -34,6 +37,7 @@ export const presente = [
   },
   {
     verb: 'aprire',
+    translation: 'to open',
     conjugation: {
       io: 'apro',
       tu: 'apri',
@@ -45,6 +49,7 @@ export const presente = [
   },
   {
     verb: 'arrivare',
+    translation: 'to arrive',
     conjugation: {
       io: 'arrivo',
       tu: 'arrivi',
@@ -56,6 +61,7 @@ export const presente = [
   },
   {
     verb: 'aspettare',
+    translation: 'to wait',
     conjugation: {
       io: 'aspetto',
       tu: 'aspetti',
@@ -67,6 +73,7 @@ export const presente = [
   },
   {
     verb: 'avere',
+    translation: 'to have',
     conjugation: {
       io: 'ho',
       tu: 'hai',
@@ -78,6 +85,7 @@ export const presente = [
   },
   {
     verb: 'bere',
+    translation: 'to drink',
     conjugation: {
       io: 'bevo',
       tu: 'bevi',
@@ -89,6 +97,7 @@ export const presente = [
   },
   {
     verb: 'cambiare',
+    translation: 'to change',
     conjugation: {
       io: 'cambio',
       tu: 'cambi',
@@ -100,6 +109,7 @@ export const presente = [
   },
   {
     verb: 'camminare',
+    translation: 'to walk',
     conjugation: {
       io: 'cammino',
       tu: 'cammini',
@@ -111,6 +121,7 @@ export const presente = [
   },
   {
     verb: 'essere',
+    translation: 'to be',
     conjugation: {
       io: 'sono',
       tu: 'sei',
@@ -122,6 +133,7 @@ export const presente = [
   },
   {
     verb: 'capire',
+    translation: 'to understand',
     conjugation: {
       io: 'capisco',
       tu: 'capisci',
@@ -133,6 +145,7 @@ export const presente = [
   },
     {
     verb: 'cercare',
+    translation: 'to look for',
     conjugation: {
       io: 'cerco',
       tu: 'cerchi',
@@ -144,6 +157,7 @@ export const presente = [
   },
       {
     verb: 'chiamare',
+    translation: 'to call',
     conjugation: {
       io: 'chiamo',
       tu: 'chiami',
@@ -155,6 +169,7 @@ export const presente = [
   },
     {
     verb: 'chiedere',
+    translation: 'to ask',
     conjugation: {
       io: 'chiedo',
       tu: 'chiedi',
@@ -166,6 +181,7 @@ export const presente = [
   },
     {
     verb: 'chiudere',
+    translation: 'to close',
     conjugation: {
       io: 'chiudo',
       tu: 'chiudi',
@@ -177,6 +193,7 @@ export const presente = [
   },
     {
     verb: 'cominciare',
+    translation: 'to start',
     conjugation: {
       io: 'comincio',
       tu: 'cominci',
@@ -188,6 +205,7 @@ export const presente = [
   },    
   {
     verb: 'comprare',
+    translation: 'to buy',
     conjugation: {
       io: 'compro',
       tu: 'compri',
@@ -199,6 +217,7 @@ export const presente = [
   },
     {
     verb: 'conoscere',
+    translation: 'to know',
     conjugation: {
       io: 'conosco',
       tu: 'conosci',
@@ -210,6 +229,7 @@ export const presente = [
   },
       {
     verb: 'credere',
+    translation: 'to believe',
     conjugation: {
       io: 'credo',
       tu: 'credi',
@@ -221,6 +241,7 @@ export const presente = [
   },
         {
     verb: 'decidere',
+    translation: 'to decide',
     conjugation: {
       io: 'decido',
       tu: 'decidi',
@@ -232,6 +253,7 @@ export const presente = [
   },
   {
     verb: 'perdere',
+    translation: 'to lose',
     conjugation: {
       io: 'perdo',
       tu: 'perdi',
@@ -243,6 +265,7 @@ export const presente = [
   },
     {
     verb: 'piacere',
+    translation: 'to like',
     conjugation: {
       io: 'piaccio',
       tu: 'piaci',
@@ -254,6 +277,7 @@ export const presente = [
   },
       {
     verb: 'porre',
+    translation: 'to put',
     conjugation: {
       io: 'pongo',
       tu: 'poni',
@@ -265,6 +289,7 @@ export const presente = [
   },
     {
     verb: 'portare',
+    translation: 'to bring',
     conjugation: {
       io: 'porto',
       tu: 'porti',
@@ -276,6 +301,7 @@ export const presente = [
   },
     {
     verb: 'potere',
+    translation: 'to be able to',
     conjugation: {
       io: 'posso',
       tu: 'puoi',
@@ -287,6 +313,7 @@ export const presente = [
   },
     {
     verb: 'preferire',
+    translation: 'to prefer',
     conjugation: {
       io: 'preferisco',
       tu: 'preferisci',
@@ -298,6 +325,7 @@ export const presente = [
   },    
   {
     verb: 'prendere',
+    translation: 'to take',
     conjugation: {
       io: 'prendo',
       tu: 'prendi',
@@ -309,6 +337,7 @@ export const presente = [
   },
     {
     verb: 'pulire',
+    translation: 'to clean',
     conjugation: {
       io: 'pulisco',
       tu: 'pulisci',
@@ -320,6 +349,7 @@ export const presente = [
   },
       {
     verb: 'restare',
+    translation: 'to stay',
     conjugation: {
       io: 'resto',
       tu: 'resti',
@@ -331,6 +361,7 @@ export const presente = [
   },
         {
     verb: 'ricevere',
+    translation: 'to receive',
     conjugation: {
       io: 'ricevo',
       tu: 'ricevi',

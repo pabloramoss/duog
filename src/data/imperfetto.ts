@@ -1,6 +1,7 @@
 export const imperfetto = [
   {
     verb: 'abitare',
+    translation: 'to live',
     conjugation: {
       io: 'abitavo',
       tu: 'abitavi',
@@ -12,6 +13,7 @@ export const imperfetto = [
   },
   {
     verb: 'aiutare',
+    translation: 'to help',
     conjugation: {
       io: 'aiutavo',
       tu: 'aiutavi',
@@ -23,6 +25,7 @@ export const imperfetto = [
   },
   {
     verb: 'andare',
+    translation: 'to go',
     conjugation: {
       io: 'andavo',
       tu: 'andavi',
@@ -34,6 +37,7 @@ export const imperfetto = [
   },
   {
     verb: 'aprire',
+    translation: 'to open',
     conjugation: {
       io: 'aprivo',
       tu: 'aprivi',
@@ -45,6 +49,7 @@ export const imperfetto = [
   },
   {
     verb: 'arrivare',
+    translation: 'to arrive',
     conjugation: {
       io: 'arrivavo',
       tu: 'arrivavi',
@@ -56,6 +61,7 @@ export const imperfetto = [
   },
   {
     verb: 'aspettare',
+    translation: 'to wait',
     conjugation: {
       io: 'aspettavo',
       tu: 'aspettavi',
@@ -67,6 +73,7 @@ export const imperfetto = [
   },
   {
     verb: 'avere',
+    translation: 'to have',
     conjugation: {
       io: 'avevo',
       tu: 'avevi',
@@ -78,6 +85,7 @@ export const imperfetto = [
   },
   {
     verb: 'bere',
+    translation: 'to drink',
     conjugation: {
       io: 'bevevo',
       tu: 'bevevi',
@@ -89,6 +97,7 @@ export const imperfetto = [
   },
   {
     verb: 'cambiare',
+    translation: 'to change',
     conjugation: {
       io: 'cambiavo',
       tu: 'cambiavi',
@@ -100,6 +109,7 @@ export const imperfetto = [
   },
   {
     verb: 'camminare',
+    translation: 'to walk',
     conjugation: {
       io: 'camminavo',
       tu: 'camminavi',
@@ -111,6 +121,7 @@ export const imperfetto = [
   },
   {
     verb: 'essere',
+    translation: 'to be',
     conjugation: {
       io: 'ero',
       tu: 'eri',
@@ -122,6 +133,7 @@ export const imperfetto = [
   },
   {
     verb: 'capire',
+    translation: 'to understand',
     conjugation: {
       io: 'capivo',
       tu: 'capivi',
@@ -133,6 +145,7 @@ export const imperfetto = [
   },
     {
     verb: 'cercare',
+    translation: 'to look for',
     conjugation: {
       io: 'cercavo',
       tu: 'cercavi',
@@ -144,6 +157,7 @@ export const imperfetto = [
   },
       {
     verb: 'chiamare',
+    translation: 'to call',
     conjugation: {
       io: 'chiamavo',
       tu: 'chiamavi',
@@ -155,6 +169,7 @@ export const imperfetto = [
   },
     {
     verb: 'chiedere',
+    translation: 'to ask',
     conjugation: {
       io: 'chiedevo',
       tu: 'chiedevi',
@@ -166,6 +181,7 @@ export const imperfetto = [
   },
     {
     verb: 'chiudere',
+    translation: 'to close',
     conjugation: {
       io: 'chiudevo',
       tu: 'chiudevi',
@@ -177,6 +193,7 @@ export const imperfetto = [
   },
     {
     verb: 'cominciare',
+    translation: 'to begin',
     conjugation: {
       io: 'cominciavo',
       tu: 'cominciavi',
@@ -188,6 +205,7 @@ export const imperfetto = [
   },    
   {
     verb: 'comprare',
+    translation: 'to buy',
     conjugation: {
       io: 'compravo',
       tu: 'compravi',
@@ -199,6 +217,7 @@ export const imperfetto = [
   },
     {
     verb: 'conoscere',
+    translation: 'to know',
     conjugation: {
       io: 'conoscevo',
       tu: 'conoscevi',
@@ -210,6 +229,7 @@ export const imperfetto = [
   },
       {
     verb: 'credere',
+    translation: 'to believe',
     conjugation: {
       io: 'credevo',
       tu: 'credevi',
@@ -221,6 +241,7 @@ export const imperfetto = [
   },
   {
     verb: 'decidere',
+    translation: 'to decide',
     conjugation: {
       io: 'decidevo',
       tu: 'decidevi',
@@ -232,6 +253,7 @@ export const imperfetto = [
   },
   {
     verb: 'perdere',
+    translation: 'to lose',
     conjugation: {
       io: 'perdevo',
       tu: 'perdevi',
@@ -243,6 +265,7 @@ export const imperfetto = [
   },
     {
     verb: 'piacere',
+    translation: 'to like',
     conjugation: {
       io: 'piacevo',
       tu: 'piacevi',
@@ -254,6 +277,7 @@ export const imperfetto = [
   },
       {
     verb: 'porre',
+    translation: 'to put',
     conjugation: {
       io: 'porrevo',
       tu: 'porrevi',
@@ -265,6 +289,7 @@ export const imperfetto = [
   },
     {
     verb: 'portare',
+    translation: 'to bring',
     conjugation: {
       io: 'portavo',
       tu: 'portavi',
@@ -276,6 +301,7 @@ export const imperfetto = [
   },
     {
     verb: 'potere',
+    translation: 'to be able to',
     conjugation: {
       io: 'potavo',
       tu: 'potavi',
@@ -287,6 +313,7 @@ export const imperfetto = [
   },
     {
     verb: 'preferire',
+    translation: 'to prefer',
     conjugation: {
       io: 'preferivo',
       tu: 'preferivi',
@@ -298,6 +325,7 @@ export const imperfetto = [
   },    
   {
     verb: 'prendere',
+    translation: 'to take',
     conjugation: {
       io: 'prendavo',
       tu: 'prendavi',
@@ -309,6 +337,7 @@ export const imperfetto = [
   },
     {
     verb: 'pulire',
+    translation: 'to clean',
     conjugation: {
       io: 'pulivo',
       tu: 'pulivi',
@@ -320,6 +349,7 @@ export const imperfetto = [
   },
       {
     verb: 'restare',
+    translation: 'to stay',
     conjugation: {
       io: 'restavo',
       tu: 'restavi',
@@ -331,6 +361,7 @@ export const imperfetto = [
   },
         {
     verb: 'ricevere',
+    translation: 'to receive',
     conjugation: {
       io: 'ricevevo',
       tu: 'ricevevi',
@@ -342,6 +373,7 @@ export const imperfetto = [
   },
   {
     verb: 'ricordare',
+    translation: 'to remember',
     conjugation: {
       io: 'ricordavo',
       tu: 'ricordavi',
@@ -353,6 +385,7 @@ export const imperfetto = [
   },
     {
     verb: 'ridere',
+    translation: 'to laugh',
     conjugation: {
       io: 'ridevo',
       tu: 'ridevi',
@@ -364,6 +397,7 @@ export const imperfetto = [
   },
       {
     verb: 'rimanere',
+    translation: 'to remain',
     conjugation: {
       io: 'rimanavo',
       tu: 'rimanavi',
@@ -375,6 +409,7 @@ export const imperfetto = [
   },
     {
     verb: 'rispondere',
+    translation: 'to answer',
     conjugation: {
       io: 'rispondevo',
       tu: 'rinspondevi',
@@ -386,6 +421,7 @@ export const imperfetto = [
   },
     {
     verb: 'riuscire',
+    translation: 'to succeed',
     conjugation: {
       io: 'riuscivo',
       tu: 'riuscivi',
@@ -397,6 +433,7 @@ export const imperfetto = [
   },
     {
     verb: 'salire',
+    translation: 'to go up',
     conjugation: {
       io: 'salivo',
       tu: 'salivi',
@@ -408,6 +445,7 @@ export const imperfetto = [
   },    
   {
     verb: 'sapere',
+    translation: 'to know',
     conjugation: {
       io: 'sapevo',
       tu: 'sapevi',
@@ -419,6 +457,7 @@ export const imperfetto = [
   },
     {
     verb: 'scegliere',
+    translation: 'to choose',
     conjugation: {
       io: 'sceglievo',
       tu: 'sceglievi',
@@ -430,6 +469,7 @@ export const imperfetto = [
   },
       {
     verb: 'scendere',
+    translation: 'to go down',
     conjugation: {
       io: 'scendevo',
       tu: 'scendevi',
@@ -441,6 +481,7 @@ export const imperfetto = [
   },
         {
     verb: 'scrivere',
+    translation: 'to write',
     conjugation: {
       io: 'scrivevo',
       tu: 'scrivevi',
@@ -452,6 +493,7 @@ export const imperfetto = [
   },
         {
     verb: 'seguire',
+    translation: 'to follow',
     conjugation: {
       io: 'seguivo',
       tu: 'seguivi',
@@ -463,6 +505,7 @@ export const imperfetto = [
   },
         {
     verb: 'sentire',
+    translation: 'to hear',
     conjugation: {
       io: 'sentivo',
       tu: 'sentivi',
