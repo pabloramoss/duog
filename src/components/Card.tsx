@@ -80,7 +80,7 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations, translation }) => {
                   onChange={(e) => handleInputChange(e, conjugation as keyof Conjugation)}
                 />
                 {isCheck ? (
-                  (conjugationsValue as any)[conjugation].toLowerCase() ===
+                  (conjugationsValue as any)[conjugation].toLowerCase().trim() ===
                   conjugations[conjugation as keyof Conjugation] ? (
                     <span>✅</span>
                   ) : (
