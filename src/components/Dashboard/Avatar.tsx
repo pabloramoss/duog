@@ -7,7 +7,7 @@ const Avatar: React.FC<Props> = ({done, available}) => {
 
   return (
     <div className="relative flex justify-center items-center">
-      <img className={`w-20 h-20 object-cover p-1 rounded-full ring-4 ring-gray-300 dark:ring-green-500  ${!done && "grayscale"}`} src="https://pbs.twimg.com/media/FFs5EQGXsBky-VM?format=jpg&name=large" alt="Bordered avatar" />
+      <img style={{minWidth: "80px", minHeight: "80px"}} className={`h-20 w-20  object-cover p-1 rounded-full ring-4 ring-gray-300 dark:ring-green-500  ${!done && "grayscale"}`} src="https://pbs.twimg.com/media/FFs5EQGXsBky-VM?format=jpg&name=large" alt="Bordered avatar" />
       {done && <svg className="absolute text-green-500 -bottom-4 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>}

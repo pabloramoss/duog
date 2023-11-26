@@ -28,12 +28,12 @@ const DashboardLesson: React.FC<Props> = ({lesson}) => {
   }
 
   return (
-    <button disabled={!lesson.available} onClick={handleRedirect} className={`${lesson.available ? "cursor-pointer":"cursor-not-allowed"} flex gap-6 items-center p-6 rounded-xl ${lesson.available && "hover:bg-slate-200"}`}>
+    <button disabled={!lesson.available} onClick={handleRedirect} className={`${lesson.available ? "cursor-pointer":"cursor-not-allowed"} flex gap-6 items-center p-6 rounded-xl ${lesson.available && "hover:bg-slate-200"} text-start`}>
       <Avatar done={done} available={available} />
-      <div>
+      <div className="grid">
         <Title size="sm">{name}</Title>
         <p>{description}</p>
-      </div>
+      </div> 
     </button>
   )
 }
