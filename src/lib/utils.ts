@@ -25,3 +25,15 @@ export function getProgress(chapters: Chapter[]) {
 export function splitCamelCase(inputString: string) {
   return inputString.replace(/([a-z])([A-Z])/g, '$1 $2');
 }
+
+export function shuffleArray(array: any[]) {
+  const shuffledArray = [...array];
+
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+  }
+
+  return shuffledArray;
+}

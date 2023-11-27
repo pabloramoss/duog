@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Navigation } from 'swiper/modules';
 
-import { splitCamelCase } from '@/lib/utils';
+import { shuffleArray, splitCamelCase } from '@/lib/utils';
 const Page = ({
   params: { lesson },
 }: {
@@ -24,7 +24,7 @@ const Page = ({
       <h1 className="text-4xl font-bold mb-20">{splitCamelCase(lesson).toUpperCase()}</h1>
       <div style={{ width: '500px' }}>
         <Swiper className="mySwiper" modules={[Navigation]} navigation={true} style={{}}>
-          {data[lesson].verbs.map((verb) => (
+          {shuffleArray(data[lesson].verbs).map((verb) => (
             <SwiperSlide key={verb.verb}>
               <Card
                 conjugations={verb.conjugation as Conjugation}
