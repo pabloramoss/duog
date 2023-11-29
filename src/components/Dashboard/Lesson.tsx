@@ -2,6 +2,7 @@
 import { useRouter } from 'next/navigation';
 
 import { Lesson } from '@/types';
+import { Routes } from '@/lib/routes';
 
 import Title from '../Title';
 
@@ -15,21 +16,8 @@ const DashboardLesson: React.FC<Props> = ({ lesson }) => {
   const { name, description, done, available } = lesson;
   const router = useRouter();
 
-  function transformLessonName(lessonName: string) {
-    const words = lessonName.toLowerCase().split(' ');
-    const camelCaseName = words.reduce((result, word, index) => {
-      if (index === 0) {
-        return result + word;
-      }
-
-      return result + word.charAt(0).toUpperCase() + word.slice(1);
-    }, '');
-
-    return camelCaseName;
-  }
-
   const handleRedirect = () => {
-    router.push(`/dashboard/learning/${transformLessonName(name)}`);
+    router.push(Routes.Coniugazioni(name));
   };
 
   return (

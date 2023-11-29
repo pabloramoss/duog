@@ -14,6 +14,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 import { shuffleArray, splitCamelCase } from '@/lib/utils';
+
 const Page = ({
   params: { lesson },
 }: {

@@ -37,3 +37,16 @@ export function shuffleArray(array: any[]) {
 
   return shuffledArray;
 }
+
+export function transformLessonName(lessonName: string) {
+  const words = lessonName.toLowerCase().split(' ');
+  const camelCaseName = words.reduce((result, word, index) => {
+    if (index === 0) {
+      return result + word;
+    }
+
+    return result + word.charAt(0).toUpperCase() + word.slice(1);
+  }, '');
+
+  return camelCaseName;
+}
