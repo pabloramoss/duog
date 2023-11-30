@@ -78,4 +78,27 @@ export const chapters = [
       },
     ],
   },
+  {
+    name: 'Chapter 6: Articoli',
+    lessons: [
+      {
+        name: 'Articoli Determinativi',
+        description: 'They are used to indicate a specific noun.',
+        done: false,
+        available: false,
+      },
+      {
+        name: 'Articoli Indeterminativi',
+        description: 'They are used to indicate a non-specific noun.',
+        done: false,
+        available: false,
+      },
+      {
+        name: 'Articoli Partitivi',
+        description: 'They are used to indicate an unspecified quantity of something.',
+        done: false,
+        available: false,
+      },
+    ],
+  },
 ];
