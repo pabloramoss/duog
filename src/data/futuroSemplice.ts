@@ -431,4 +431,16 @@ export const futuroSemplice = [
       loro: 'guarderanno',
     },
   },
+  {
+    verb: 'dovere',
+    translation: 'to have to',
+    conjugation: {
+      io: 'dovrò',
+      tu: 'dovrai',
+      lui: 'dovrà',
+      noi: 'dovremo',
+      voi: 'dovrete',
+      loro: 'dovranno',
+    },
+  },
 ];

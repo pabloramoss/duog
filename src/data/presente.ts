@@ -431,4 +431,16 @@ export const presente = [
       loro: 'guardano',
     },
   },
+  {
+    verb: 'dovere',
+    translation: 'to have to',
+    conjugation: {
+      io: 'devo',
+      tu: 'devi',
+      lui: 'deve',
+      noi: 'dobbiamo',
+      voi: 'dovete',
+      loro: 'devono',
+    },
+  },
 ];

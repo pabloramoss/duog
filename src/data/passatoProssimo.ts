@@ -443,4 +443,16 @@ export const passatoProssimo = [
       loro: 'hanno guardato',
     },
   },
+  {
+    verb: 'dovere',
+    translation: 'to have to',
+    conjugation: {
+      io: 'ho dovuto',
+      tu: 'hai dovuto',
+      lui: 'ha dovuto',
+      noi: 'abbiamo dovuto',
+      voi: 'avete dovuto',
+      loro: 'hanno dovuto',
+    },
+  },
 ];

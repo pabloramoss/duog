@@ -575,4 +575,16 @@ export const imperfetto = [
       loro: 'guardavano',
     },
   },
+  {
+    verb: 'dovere',
+    translation: 'to have to',
+    conjugation: {
+      io: 'dovevo',
+      tu: 'dovevi',
+      lui: 'doveva',
+      noi: 'dovevamo',
+      voi: 'dovevate',
+      loro: 'dovevano',
+    },
+  },
 ];

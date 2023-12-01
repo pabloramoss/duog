@@ -15,9 +15,10 @@ interface Props {
   verb: string;
   conjugations: Conjugation;
   translation: string;
+  slideNumber: string;
 }
 
-const Card: React.FC<Props> = ({ tense, verb, conjugations, translation }) => {
+const Card: React.FC<Props> = ({ tense, verb, conjugations, translation, slideNumber }) => {
   const [conjugationsValue, setConjugationsValue] = useState<Conjugation>({
     io: '',
     tu: '',
@@ -42,6 +43,7 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations, translation }) => {
 
   return (
     <div className="grid gap-6 p-16 rounded-lg drop-shadow-md border-2 border-opacity-40 border-stone-500">
+      <p className="text-slate-400 absolute right-5 top-5">{slideNumber}</p>
       <div className="flex items-center justify-center gap-2">
         <h3 className="font-bold uppercase text-center text-xl">{verb}</h3>
         <Tooltip title={translation}>
@@ -92,6 +94,7 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations, translation }) => {
                 ) : (
                   <span>👀</span>
                 )}
+                p
               </div>
             </div>
           ))}
