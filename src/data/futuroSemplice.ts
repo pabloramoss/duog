@@ -443,4 +443,16 @@ export const futuroSemplice = [
       loro: 'dovranno',
     },
   },
+  {
+    verb: 'finire',
+    translation: 'to finish',
+    conjugation: {
+      io: 'finirò',
+      tu: 'finirai',
+      lui: 'finirà',
+      noi: 'finiremo',
+      voi: 'finirete',
+      loro: 'finiranno',
+    },
+  },
 ];

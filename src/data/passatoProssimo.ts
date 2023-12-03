@@ -455,4 +455,16 @@ export const passatoProssimo = [
       loro: 'hanno dovuto',
     },
   },
+  {
+    verb: 'finire',
+    translation: 'to finish',
+    conjugation: {
+      io: 'ho finito',
+      tu: 'hai finito',
+      lui: 'ha finito',
+      noi: 'abbiamo finito',
+      voi: 'avete finito',
+      loro: 'hanno finito',
+    },
+  },
 ];

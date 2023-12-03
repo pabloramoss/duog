@@ -587,4 +587,16 @@ export const imperfetto = [
       loro: 'dovevano',
     },
   },
+  {
+    verb: 'finire',
+    translation: 'to finish',
+    conjugation: {
+      io: 'finivo',
+      tu: 'finivi',
+      lui: 'finiva',
+      noi: 'finivamo',
+      voi: 'finivate',
+      loro: 'finivano',
+    },
+  },
 ];

@@ -443,4 +443,16 @@ export const presente = [
       loro: 'devono',
     },
   },
+  {
+    verb: 'finire',
+    translation: 'to finish',
+    conjugation: {
+      io: 'finisco',
+      tu: 'finisci',
+      lui: 'finisce',
+      noi: 'finiamo',
+      voi: 'finite',
+      loro: 'finiscono',
+    },
+  },
 ];
