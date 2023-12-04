@@ -7,7 +7,7 @@ const Dashboard: React.FC = () => {
   const progression = `${getProgress(chapters)}%`;
 
   return (
-    <main className="text-black flex min-h-screen flex-col items-center justify-center p-24 bg-white">
+    <main className="text-black flex min-h-screen flex-col items-center justify-center p-4 md:p-24 bg-white">
       <div className="bg-white grid gap-10">
         <section className="">
           <Title>Complete Italian</Title>

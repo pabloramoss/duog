@@ -16,7 +16,7 @@ const DashboardChapter: React.FC<Props> = ({ chapter }) => {
   return (
     <section className="grid gap-10">
       <div className={`grid ${isChapterCompleted && 'bg-orange-100 '} rounded-2xl p-6`}>
-        <Title color={isChapterCompleted && 'text-orange-400'} size="md">
+        <Title className="md:text-sm text-lg" color={isChapterCompleted && 'text-orange-400'}>
           {name}
         </Title>
         <p className={`${isChapterCompleted && 'text-green-500'} font-bold`}>

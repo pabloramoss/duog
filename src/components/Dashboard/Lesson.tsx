@@ -32,8 +32,8 @@ const DashboardLesson: React.FC<Props> = ({ lesson }) => {
     >
       <Avatar available={available} done={done} />
       <div className="grid">
-        <Title size="sm">{name}</Title>
-        <p>{description}</p>
+        <Title className="text-sm md:text-lg">{name}</Title>
+        <p className="md:text-md text-xs">{description}</p>
       </div>
     </button>
   );
