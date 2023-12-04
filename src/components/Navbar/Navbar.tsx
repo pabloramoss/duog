@@ -5,7 +5,7 @@ import { Routes } from '@/lib/routes';
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-white drop-shadow-lg py-2">
-      <div className="flex items-center mx-auto justify-between max-w-5xl">
+      <div className="flex items-center mx-auto justify-between max-w-5xl px-4">
         <div>
           <img />
           <Link className="font-bold" href={Routes.Home}>
