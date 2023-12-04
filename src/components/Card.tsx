@@ -94,7 +94,6 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations, translation, slideNu
                 ) : (
                   <span>👀</span>
                 )}
-                p
               </div>
             </div>
           ))}
