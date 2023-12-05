@@ -455,4 +455,16 @@ export const futuroSemplice = [
       loro: 'finiranno',
     },
   },
+  {
+    verb: 'dire',
+    translation: 'to say',
+    conjugation: {
+      io: 'dirò',
+      tu: 'dirai',
+      lui: 'dirà',
+      noi: 'diremo',
+      voi: 'direte',
+      loro: 'diranno',
+    },
+  },
 ];

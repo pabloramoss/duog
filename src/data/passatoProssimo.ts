@@ -467,4 +467,16 @@ export const passatoProssimo = [
       loro: 'hanno finito',
     },
   },
+  {
+    verb: 'dire',
+    translation: 'to say',
+    conjugation: {
+      io: 'ho detto',
+      tu: 'hai detto',
+      lui: 'ha detto',
+      noi: 'abbiamo detto',
+      voi: 'avete detto',
+      loro: 'hanno detto',
+    },
+  },
 ];

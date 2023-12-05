@@ -455,4 +455,16 @@ export const presente = [
       loro: 'finiscono',
     },
   },
+  {
+    verb: 'dire',
+    translation: 'to say',
+    conjugation: {
+      io: 'dico',
+      tu: 'dici',
+      lui: 'dice',
+      noi: 'diciamo',
+      voi: 'dite',
+      loro: 'dicono',
+    },
+  },
 ];

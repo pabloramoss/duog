@@ -599,4 +599,16 @@ export const imperfetto = [
       loro: 'finivano',
     },
   },
+  {
+    verb: 'dire',
+    translation: 'to say',
+    conjugation: {
+      io: 'dicevo',
+      tu: 'dicevi',
+      lui: 'diceva',
+      noi: 'dicevamo',
+      voi: 'dicevate',
+      loro: 'dicevano',
+    },
+  },
 ];
