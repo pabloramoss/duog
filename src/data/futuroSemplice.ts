@@ -467,4 +467,16 @@ export const futuroSemplice = [
       loro: 'diranno',
     },
   },
+  {
+    verb: 'scendere',
+    translation: 'to say',
+    conjugation: {
+      io: 'scenderò',
+      tu: 'scenderai',
+      lui: 'scenderà',
+      noi: 'scenderemo',
+      voi: 'scenderete',
+      loro: 'scenderanno',
+    },
+  },
 ];
