@@ -469,7 +469,7 @@ export const futuroSemplice = [
   },
   {
     verb: 'scendere',
-    translation: 'to say',
+    translation: 'to get down',
     conjugation: {
       io: 'scenderò',
       tu: 'scenderai',

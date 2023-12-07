@@ -479,4 +479,16 @@ export const passatoProssimo = [
       loro: 'hanno detto',
     },
   },
+  {
+    verb: 'scendere',
+    translation: 'to get down',
+    conjugation: {
+      io: 'sono sceso',
+      tu: 'sei sceso',
+      lui: 'è sceso',
+      noi: 'siamo sceso',
+      voi: 'siete sceso',
+      loro: 'sono sceso',
+    },
+  },
 ];

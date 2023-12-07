@@ -611,4 +611,16 @@ export const imperfetto = [
       loro: 'dicevano',
     },
   },
+  {
+    verb: 'scendere',
+    translation: 'to get down',
+    conjugation: {
+      io: 'scendevo',
+      tu: 'scendevi',
+      lui: 'scendeva',
+      noi: 'scendevamo',
+      voi: 'scendevate',
+      loro: 'scendevano',
+    },
+  },
 ];

@@ -467,4 +467,16 @@ export const presente = [
       loro: 'dicono',
     },
   },
+  {
+    verb: 'scendere',
+    translation: 'to get down',
+    conjugation: {
+      io: 'scendo',
+      tu: 'scendi',
+      lui: 'scende',
+      noi: 'scenderemo',
+      voi: 'scendete',
+      loro: 'scendono',
+    },
+  },
 ];
