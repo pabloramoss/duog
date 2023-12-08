@@ -479,4 +479,28 @@ export const futuroSemplice = [
       loro: 'scenderanno',
     },
   },
+  {
+    verb: 'creare',
+    translation: 'to create',
+    conjugation: {
+      io: 'creerò',
+      tu: 'creerai',
+      lui: 'creerà',
+      noi: 'creeremo',
+      voi: 'creerete',
+      loro: 'creeranno',
+    },
+  },
+  {
+    verb: 'restituire',
+    translation: 'to return',
+    conjugation: {
+      io: 'restituirò',
+      tu: 'restituirai',
+      lui: 'restituirà',
+      noi: 'restituiremo',
+      voi: 'restituirete',
+      loro: 'restituiranno',
+    },
+  },
 ];

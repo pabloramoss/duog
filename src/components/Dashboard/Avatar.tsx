@@ -1,8 +1,9 @@
 interface Props {
   done: boolean;
   available: boolean;
+  image: string | undefined;
 }
-const Avatar: React.FC<Props> = ({ done, available }) => {
+const Avatar: React.FC<Props> = ({ done, available, image }) => {
   const showLock = !done && !available;
 
   return (
@@ -12,7 +13,7 @@ const Avatar: React.FC<Props> = ({ done, available }) => {
         className={`h-20 w-20  object-cover p-1 rounded-full ring-4 ring-gray-300 dark:ring-green-500  ${
           !done && 'grayscale'
         }`}
-        src="https://pbs.twimg.com/media/FFs5EQGXsBky-VM?format=jpg&name=large"
+        src={image ? image : 'https://via.placeholder.com/300'}
         style={{ minWidth: '80px', minHeight: '80px' }}
       />
       {done && (

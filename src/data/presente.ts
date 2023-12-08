@@ -479,4 +479,28 @@ export const presente = [
       loro: 'scendono',
     },
   },
+  {
+    verb: 'creare',
+    translation: 'to create',
+    conjugation: {
+      io: 'creo',
+      tu: 'crei',
+      lui: 'crea',
+      noi: 'creiamo',
+      voi: 'create',
+      loro: 'creano',
+    },
+  },
+  {
+    verb: 'restituire',
+    translation: 'to return',
+    conjugation: {
+      io: 'restuisco',
+      tu: 'restituisci',
+      lui: 'restituisce',
+      noi: 'restituiamo',
+      voi: 'restituite',
+      loro: 'restituiscono',
+    },
+  },
 ];

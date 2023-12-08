@@ -12,6 +12,7 @@ export interface Lesson {
   description: string;
   done: boolean;
   available: boolean;
+  image?: string;
 }
 
 export interface Chapter {

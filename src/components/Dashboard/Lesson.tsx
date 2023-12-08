@@ -13,7 +13,7 @@ interface Props {
 }
 
 const DashboardLesson: React.FC<Props> = ({ lesson }) => {
-  const { name, description, done, available } = lesson;
+  const { name, description, done, available, image } = lesson;
   const router = useRouter();
 
   const handleRedirect = () => {
@@ -30,7 +30,7 @@ const DashboardLesson: React.FC<Props> = ({ lesson }) => {
       disabled={!lesson.available}
       onClick={handleRedirect}
     >
-      <Avatar available={available} done={done} />
+      <Avatar available={available} done={done} image={image && image} />
       <div className="grid">
         <Title className="text-sm md:text-lg">{name}</Title>
         <p className="md:text-md text-xs">{description}</p>

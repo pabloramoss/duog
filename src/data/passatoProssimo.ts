@@ -491,4 +491,28 @@ export const passatoProssimo = [
       loro: 'sono sceso',
     },
   },
+  {
+    verb: 'creare',
+    translation: 'to create',
+    conjugation: {
+      io: 'ho creato',
+      tu: 'hai creato',
+      lui: 'ha creato',
+      noi: 'abbiamo creato',
+      voi: 'avete creato',
+      loro: 'hanno creato',
+    },
+  },
+  {
+    verb: 'restituire',
+    translation: 'to return',
+    conjugation: {
+      io: 'ho restituito',
+      tu: 'hai restituito',
+      lui: 'ha restituito',
+      noi: 'abbiamo restituito',
+      voi: 'avete restituito',
+      loro: 'hanno restituito',
+    },
+  },
 ];

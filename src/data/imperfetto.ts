@@ -623,4 +623,28 @@ export const imperfetto = [
       loro: 'scendevano',
     },
   },
+  {
+    verb: 'creare',
+    translation: 'to create',
+    conjugation: {
+      io: 'creavo',
+      tu: 'creavi',
+      lui: 'creava',
+      noi: 'creavamo',
+      voi: 'creavate',
+      loro: 'creavano',
+    },
+  },
+  {
+    verb: 'restituire',
+    translation: 'to return',
+    conjugation: {
+      io: 'restituivo',
+      tu: 'restituivi',
+      lui: 'restituiva',
+      noi: 'restituivamo',
+      voi: 'restituivate',
+      loro: 'restituivano',
+    },
+  },
 ];
