@@ -15,7 +15,7 @@ import { Navigation } from 'swiper/modules';
 
 import { shuffleArray, splitCamelCase } from '@/lib/utils';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 
 const Page = ({
   params: { lesson },
@@ -29,7 +29,7 @@ const Page = ({
     setCurrentSlide(swiper.activeIndex);
   };
 
-  const newArray = shuffleArray(data[lesson].verbs);
+  const newArray = useMemo(() => shuffleArray(data[lesson].verbs), [lesson]);
 
   return (
     <main className="flex min-h-screen flex-col items-center lg:justify-center justify-start p-24">

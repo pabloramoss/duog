@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Tooltip from '@mui/material/Tooltip';
 
+import { isIrregularVerb } from '@/lib/utils';
+
 interface Conjugation {
   io: string;
   tu: string;
@@ -45,27 +47,25 @@ const Card: React.FC<Props> = ({ tense, verb, conjugations, translation, slideNu
     <div className="grid gap-6 p-16 rounded-lg drop-shadow-md border-2 border-opacity-40 border-stone-500">
       <p className="text-slate-400 absolute right-5 top-5">{slideNumber}</p>
       <div className="flex items-center justify-center gap-2">
-        <h3 className="font-bold uppercase text-center text-xl">{verb}</h3>
-        <Tooltip title={translation}>
+        <h3
+          className="font-bold uppercase text-center text-xl"
+          style={{ textDecoration: 'text-decoration: green wavy underline;' }}
+        >
+          {verb}
+        </h3>
+        <Tooltip title={`${translation} ${isIrregularVerb(verb) ? '(irregular verb)' : ''}`}>
           <svg
             className="h-4 w-4"
             enable-background="new 0 0 32 32"
             id="Layer_1"
+            stroke={`${isIrregularVerb(verb) ? '#ef4444' : 'black'}`}
             version="1.1"
             viewBox="0 0 32 32"
             xmlns="http://www.w3.org/2000/svg"
           >
             <rect height="8" width="2" x="15" y="14" />
             <rect height="2" width="2" x="15" y="10" />
-            <circle
-              cx="16"
-              cy="16"
-              fill="none"
-              r="12"
-              stroke="#000000"
-              stroke-miterlimit="10"
-              stroke-width="2"
-            />
+            <circle cx="16" cy="16" fill="none" r="12" stroke-miterlimit="10" stroke-width="2" />
           </svg>
         </Tooltip>
       </div>

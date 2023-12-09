@@ -1,3 +1,4 @@
+import { verbiIrregolari } from '@/data/verbiIrregolari';
 import { Chapter } from '@/types';
 
 export function getProgress(chapters: Chapter[]) {
@@ -49,4 +50,8 @@ export function transformLessonName(lessonName: string) {
   }, '');
 
   return camelCaseName;
+}
+
+export function isIrregularVerb(verb: string) {
+  return verbiIrregolari.includes(verb);
 }
