@@ -17,8 +17,6 @@ import { shuffleArray, splitCamelCase } from '@/lib/utils';
 
 import { useState } from 'react';
 
-import Title from '@/components/Title';
-
 const Page = ({
   params: { lesson },
 }: {
@@ -31,6 +29,8 @@ const Page = ({
     setCurrentSlide(swiper.activeIndex);
   };
 
+  const newArray = shuffleArray(data[lesson].verbs);
+
   return (
     <main className="flex min-h-screen flex-col items-center lg:justify-center justify-start p-24">
       <h1 className="text-4xl font-bold mb-10">{splitCamelCase(lesson).toUpperCase()}</h1>
@@ -42,7 +42,7 @@ const Page = ({
           style={{}}
           onSlideChange={(swiper) => handleSlideChange(swiper)}
         >
-          {shuffleArray(data[lesson].verbs).map((verb) => (
+          {newArray.map((verb) => (
             <SwiperSlide key={verb.verb}>
               <Card
                 conjugations={verb.conjugation as Conjugation}
