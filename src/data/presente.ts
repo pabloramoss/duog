@@ -587,4 +587,16 @@ export const presente = [
       loro: 'rimangono',
     },
   },
+  {
+    verb: 'spiegare',
+    translation: 'to explain',
+    conjugation: {
+      io: 'spiego',
+      tu: 'spieghi',
+      lui: 'spiega',
+      noi: 'spieghiamo',
+      voi: 'spiegate',
+      loro: 'spiegano',
+    },
+  },
 ];

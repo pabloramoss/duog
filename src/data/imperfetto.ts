@@ -731,4 +731,16 @@ export const imperfetto = [
       loro: 'rimanevano',
     },
   },
+  {
+    verb: 'spiegare',
+    translation: 'to explain',
+    conjugation: {
+      io: 'spiegavo',
+      tu: 'spiegavi',
+      lui: 'spiegava',
+      noi: 'spiegavamo',
+      voi: 'spiegavate',
+      loro: 'spiegavano',
+    },
+  },
 ];

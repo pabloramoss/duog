@@ -587,4 +587,16 @@ export const futuroSemplice = [
       loro: 'rimarranno',
     },
   },
+  {
+    verb: 'spiegare',
+    translation: 'to explain',
+    conjugation: {
+      io: 'spiegherò',
+      tu: 'spiegherai',
+      lui: 'spiegherà',
+      noi: 'spiegheremo',
+      voi: 'spiegherete',
+      loro: 'spiegheranno',
+    },
+  },
 ];

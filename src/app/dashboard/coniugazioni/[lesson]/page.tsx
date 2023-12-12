@@ -40,6 +40,7 @@ const Page = ({
           modules={[Navigation]}
           navigation={true}
           style={{}}
+          onReachEnd={() => console.log('end')}
           onSlideChange={(swiper) => handleSlideChange(swiper)}
         >
           {newArray.map((verb) => (

@@ -1,5 +1,5 @@
 import { verbiIrregolari } from '@/data/verbiIrregolari';
-import { Chapter } from '@/types';
+import { ActualConjugations, Chapter, LocalStorageObj } from '@/types';
 
 export function getProgress(chapters: Chapter[]) {
   let totalLessons = 0;
@@ -55,3 +55,30 @@ export function transformLessonName(lessonName: string) {
 export function isIrregularVerb(verb: string) {
   return verbiIrregolari.includes(verb);
 }
+
+export const saveToLocalStorage = (key: string, data: LocalStorageObj): void => {
+  try {
+    const serializedData = JSON.stringify(data);
+
+    localStorage.setItem(key, serializedData);
+    console.log(`Data saved to localStorage with key: ${key}`);
+  } catch (error) {
+    console.error('Error saving data to localStorage:', error);
+  }
+};
+
+export const getFromLocalStorage = (key: string): LocalStorageObj | null => {
+  try {
+    const serializedData = localStorage.getItem(key);
+
+    if (serializedData) {
+      return JSON.parse(serializedData) as LocalStorageObj;
+    }
+
+    return null;
+  } catch (error) {
+    console.error('Error getting data from localStorage:', error);
+
+    return null;
+  }
+};

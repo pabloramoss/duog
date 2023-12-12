@@ -599,4 +599,16 @@ export const passatoProssimo = [
       loro: 'sono rimasto',
     },
   },
+  {
+    verb: 'spiegare',
+    translation: 'to explain',
+    conjugation: {
+      io: 'ho spiegato',
+      tu: 'hai spiegato',
+      lui: 'ha spiegato',
+      noi: 'abbiamo spiegato',
+      voi: 'avete spiegato',
+      loro: 'hanno spiegato',
+    },
+  },
 ];

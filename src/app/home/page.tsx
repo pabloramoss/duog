@@ -1,6 +1,8 @@
 import Link from 'next/link';
 
 const Home: React.FC = () => {
+  console.log(process.env.API_URL);
+
   return (
     <div className="max-w-3xl mx-auto">
       <header className="flex items-center gap-10 mt-10">
