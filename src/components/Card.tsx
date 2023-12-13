@@ -13,14 +13,13 @@ interface Conjugation {
 }
 
 interface Props {
-  tense: string;
   verb: string;
   conjugations: Conjugation;
   translation: string;
   slideNumber: string;
 }
 
-const Card: React.FC<Props> = ({ tense, verb, conjugations, translation, slideNumber }) => {
+const Card: React.FC<Props> = ({ verb, conjugations, translation, slideNumber }) => {
   const [conjugationsValue, setConjugationsValue] = useState<Conjugation>({
     io: '',
     tu: '',

@@ -48,7 +48,6 @@ const Page = ({
               <Card
                 conjugations={verb.conjugation as Conjugation}
                 slideNumber={`${currentSlide + 1}/${totalSlides}`}
-                tense={lesson}
                 translation={verb.translation}
                 verb={verb.verb}
               />
